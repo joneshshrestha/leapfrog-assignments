@@ -1,0 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}

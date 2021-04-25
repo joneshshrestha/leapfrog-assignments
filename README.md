@@ -1,3 +1,3 @@
-# Leapfrog Software Engineering Assignments
+# [Leapfrog Software Engineering Assignments](https://joneshshrestha.github.io/leapfrog-assignments/)
 
-- [ ] Design Assignment 1: 1A-home-search.jpg 
+- [x] Design Assignment 1: 1A-home-search.jpg 

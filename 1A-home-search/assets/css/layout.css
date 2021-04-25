@@ -1,0 +1,204 @@
+.header-top-layout,
+.main-body-layout,
+.footer {
+  overflow: hidden;
+  width: 58.625em;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header-top {
+  background-color: #7dd9e8;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.profile {
+  float: right;
+  margin-top: 28px;
+}
+
+.name {
+  text-align: right;
+  text-transform: capitalize;
+}
+
+/* Bottom Header */
+
+.bottom-header {
+  background-color: #f5f5f5;
+  width: auto;
+  margin: 0px;
+  overflow: hidden;
+  padding-left: 15.2rem;
+  height: 39.5px;
+}
+
+.bottom-header-itemR {
+  float: left;
+  margin-top: 13px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-left: 6.7rem;
+}
+
+/* Main */
+
+.main-body {
+  clear: both;
+  overflow: hidden;
+}
+
+.main-body-layout {
+  height: 667px;
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+/* Left Bar */
+
+.left-bar {
+  float: left;
+  margin-top: 30px;
+}
+
+.recent-searches {
+  height: 615px;
+  background-color: #f5f5f5;
+}
+
+.recent-searches-header {
+  background-color: #2fc1da;
+  color: white;
+  line-height: 42px;
+  padding: 0 11px;
+  font-size: 16px;
+}
+
+.recent-searches-item {
+  width: 194px;
+  background-color: #f5f5f5;
+  float: left;
+}
+
+/* Center Bar */
+
+.content {
+  float: right;
+  margin-top: 30px;
+}
+
+.center-bar {
+  float: right;
+  width: 520px;
+  height: 100%;
+}
+.center-title {
+  font-size: 24pt;
+  padding-bottom: 9px;
+  font-weight: 400;
+}
+
+.menu {
+  height: 68px;
+  text-align: center;
+}
+
+.all-entries-menu {
+  width: 259px;
+  float: left;
+  background-color: #f5f5f5;
+  margin-right: 2px;
+}
+.menu-heading {
+  padding: 12px 0;
+  font-size: 10pt;
+}
+
+.sub-menu-left {
+  height: 28px;
+  float: left;
+  width: 115px;
+  margin-left: 10px;
+  margin-right: 5px;
+  background-color: #2fc1d8;
+}
+
+.sub-menu-right {
+  height: 28px;
+  float: right;
+  width: 115px;
+  margin-right: 10px;
+  background-color: #dddddd;
+}
+.subscribe_menu {
+  width: 259px;
+  float: right;
+  background-color: #f5f5f5;
+}
+
+.post {
+  float: left;
+  padding: 0 10px;
+  overflow: hidden;
+  height: 100%;
+}
+.post-topic-box {
+  font-size: 11px;
+  color: #707070;
+  padding-top: 6px;
+  float: left;
+}
+.post-meta {
+  padding-top: 4px;
+  font-size: 11px;
+  color: #707070;
+}
+
+.post-title {
+  padding-top: 3px;
+  padding-right: 6px;
+  font-size: 15px;
+}
+
+/* Right Bar */
+
+.right-bar {
+  background-color: thistle;
+  float: right;
+  width: 177px;
+  height: 606px;
+  margin-left: 24px;
+}
+
+.video-tutorials {
+  background-color: #f5f5f5;
+  height: 615px;
+}
+
+/* Footer */
+
+.footer-main {
+  width: 100%;
+  background-color: #727272;
+}
+
+.footer {
+  height: 50;
+}
+
+.copyright {
+  float: right;
+  color: #fff;
+  padding: 19px 2px;
+  font-size: 11px;
+}
+
+.footer-item {
+  float: left;
+  color: #ffffff;
+  padding: 19px 2px;
+}

@@ -72,6 +72,15 @@ nav::after {
   font-weight: 900;
 }
 
+.project-list h4 a {
+  color: #ffffff;
+  padding-left: 20rem;
+  font-family: "Source Code Pro", monospace;
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 20px;
+}
+
 .project-tag {
   color: white;
   font-size: 12px;

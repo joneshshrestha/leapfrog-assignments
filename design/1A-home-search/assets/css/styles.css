@@ -141,7 +141,7 @@ input {
   background-image: url(../img/user.png);
   background-repeat: no-repeat;
   display: inline-block;
-  color: grey;
+  color: rgb(123, 122, 122);
   padding-left: 22px;
 }
 

@@ -135,9 +135,10 @@ input {
   display: inline-block;
   padding-left: 16px;
   margin-left: 10px;
+  color: #000;
 }
 
-.bottom-header-itemR ul li:last-child {
+.bottom-header-itemR ul li {
   background-image: url(../img/user.png);
   background-repeat: no-repeat;
   display: inline-block;

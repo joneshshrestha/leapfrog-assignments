@@ -1,107 +1,88 @@
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1425px;
-}
-
 .header-top-layout,
+.bottom-header-itemL,
 .main-body-layout,
 .footer {
   overflow: hidden;
-  max-width: 58.625em;
+  width: 93.612774%;
   margin: 0 auto;
 }
-
-/* Header */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  min-width: 30em;
+}
+/*header*/
 
 .header-top {
   background-color: #7dd9e8;
-  max-width: 100%;
+  width: 100%;
+  float: left;
   overflow: hidden;
 }
 
 .profile {
-  float: right;
+  text-align: center;
   margin-top: 28px;
 }
-
+.search_icon {
+  float: right;
+  display: block;
+}
 .name {
-  text-align: right;
   text-transform: capitalize;
 }
 
-/* Bottom Header */
-
-.bottom-header {
+/*bottom header*/
+.header-bottom {
   background-color: #f5f5f5;
+  width: 100%;
+  margin: 0px;
   overflow: hidden;
-  height: 39.5px;
-  max-width: 100%;
 }
 
 .bottom-header-itemR {
-  float: right;
+  text-align: center;
   margin-top: 13px;
   font-size: 14px;
   margin-bottom: 10px;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 7rem;
+  float: right;
 }
-
-.bottom-header-itemL {
-  margin-left: auto;
-  margin-right: auto;
+.burger_menu {
   float: left;
-  font-size: 14px;
-  margin-bottom: 10px;
-  clear: both;
-  padding-left: 16.5%;
+  margin-top: 16px;
+}
+.burger_menu:hover ~ .header-bottom_list {
+  display: block;
 }
 
-/* Main */
-
+/*main*/
 .main-body {
   clear: both;
   overflow: hidden;
 }
-
 .main-body-layout {
-  height: 667px;
   background-color: white;
   overflow: hidden;
   margin-bottom: 32px;
 }
-
-/* Left Bar */
-
+/*left*/
 .left-bar {
-  float: left;
   margin-top: 30px;
+  width: 100%;
 }
-
 .recent-searches {
-  height: 615px;
   background-color: #f5f5f5;
 }
-
 .recent-searches-header-up {
-  background-color: #2fc1da;
-  color: white;
-  line-height: 42px;
-  padding: 0 11px;
-  font-size: 16px;
-}
-
-.recent-searches-header-down {
   background-color: #2fc1da;
   color: white;
   line-height: 42px;
   padding: 0 11px;
   font-size: 13px;
 }
-
 .recent-searches-header-right {
   background-color: #2fc1da;
   color: white;
@@ -109,65 +90,73 @@
   padding: 0 11px;
   font-size: 13px;
 }
-
 .recent-searches-header-up:hover ~ .recent-searches-item {
   display: block;
 }
-
 .recent-searches-header-right:hover ~ .recent-searches-item-right {
   display: block;
 }
-
-.recent-searches-item {
-  width: 194px;
-  background-color: #f5f5f5;
+.recent-searches-header-down {
+  background-color: #2fc1da;
+  color: white;
+  line-height: 42px;
+  padding: 0 11px;
+  font-size: 13px;
+  display: none;
 }
-
+.recent-searches-item {
+  background-color: #f5f5f5;
+  float: left;
+  display: none;
+}
 .recent-searches-item-right {
   background-color: #f5f5f5;
   width: 194px;
   float: left;
   display: none;
 }
-
-/* Center Bar */
-
+/*right and main content*/
 .content {
-  margin-left: 2rem;
-  margin-top: 2rem;
+  float: right;
+  margin-top: 30px;
+  width: 100%;
 }
 
-.center-bar {
+.video_tutorials_header {
+  background-color: #7dd9e8;
+  color: white;
+  padding: 20px;
+}
+
+.center {
   float: right;
-  max-width: 37.72rem;
+  width: 100%;
   height: 100%;
 }
 .center-title {
   font-size: 24pt;
-  padding-bottom: 9px;
-  font-weight: 400;
+  padding-bottom: 5px;
 }
-
 .menu {
-  height: 11%;
+  height: 67px;
   text-align: center;
 }
 
 .all-entries-menu {
-  width: 16.1875rem;
+  width: 49%;
   float: left;
   background-color: #f5f5f5;
   margin-right: 2px;
 }
 .menu-heading {
   padding: 12px 0;
-  font-size: 10pt;
+  font-size: 8pt;
 }
 
 .sub-menu-left {
   height: 28px;
   float: left;
-  width: 115px;
+  width: 40%;
   margin-left: 10px;
   margin-right: 5px;
   background-color: #2fc1d8;
@@ -176,76 +165,58 @@
 .sub-menu-right {
   height: 28px;
   float: right;
-  width: 115px;
+  width: 40%;
   margin-right: 10px;
   background-color: #dddddd;
 }
+.sub-menu-right a:hover {
+  color: #ffffff;
+}
 .subscribe_menu {
+  width: 49%;
   float: right;
   background-color: #f5f5f5;
 }
-
 .post {
   float: left;
   padding: 0 10px;
   overflow: hidden;
   height: 100%;
+  width: 70%;
 }
-
 .post-topic-box {
   font-size: 11px;
   color: #707070;
   padding-top: 6px;
   float: left;
 }
-
 .post-meta {
-  padding-top: 4px;
   font-size: 11px;
   color: #707070;
 }
 
 .post-title {
-  padding-top: 3px;
   padding-right: 6px;
-  font-size: 15px;
 }
-
-/* Right Bar */
-
-.right-bar {
-  background-color: white;
-  float: right;
-  width: 197px;
-  height: 606px;
-  margin-left: 24px;
-}
-
-.video-tutorials {
-  background-color: #f5f5f5;
-  height: 615px;
-  float: right;
-  max-width: 100%;
-}
-
-/* Footer */
-
+/*footer*/
 .footer-main {
-  max-width: 100%;
+  width: 100%;
   background-color: #727272;
 }
-
 .footer {
-  height: 50px;
+  text-align: center;
 }
-
+.footer-item ul {
+  width: 100%;
+}
+.footer ul li a:hover {
+  color: #dddddd;
+}
 .copyright {
-  float: right;
   color: #fff;
-  padding: 19px 2px;
+  padding: 19px;
   font-size: 11px;
 }
-
 .footer-item {
   float: left;
   color: #ffffff;
@@ -283,8 +254,8 @@
   .container {
     min-width: 62.625em;
   }
-
   .header-top-layout,
+  .bottom-header-itemL,
   .main-body-layout,
   .footer {
     overflow: hidden;
@@ -293,17 +264,20 @@
   }
   .left-bar {
     float: left;
-    width: 20.7%;
-    margin-right: 2.376033057%;
-  }
-  .right-bar {
-    float: right;
-    width: 20.7%;
-    margin-left: 2.376033057%;
+    width: 20.0413223%;
+    margin-right: 2.4%;
   }
   .center-bar {
     float: left;
-    width: 56.57%;
+    width: 65.4105409%;
+    margin-left: 2.376033057%;
+  }
+  .right-bar {
+    float: right;
+    width: 27%;
+  }
+  .content {
+    width: 76.736363357%;
   }
   .recent-searches-item {
     display: block;
@@ -320,47 +294,16 @@
   }
   .bottom-header-itemR {
     float: right;
-    width: 32.192411%;
+    width: 35%;
   }
   .copyright {
     float: right;
   }
 
-  .burger-menu {
+  .burger_menu {
     display: none;
   }
-  .search-box-icon {
+  .search_icon {
     display: none;
   }
 }
-
-/* @media (max-width: 768px) {
-  .bottom-header,
-  .footer-main {
-    margin-left: 0px;
-    margin-right: auto;
-    clear: both;
-    width: 50%;
-    padding-left: 0px;
-  }
-  .bottom-header-itemR {
-    float: left;
-  }
-  .bottom-header-itemL {
-    float: left;
-  }
-  .bottom-header-itemL ul li {
-    margin-right: 8px;
-  }
-  .bottom-header-itemL p {
-    font-size: 10px;
-  }
-  .bottom-header-itemR p {
-    font-size: 10px;
-  }
-  .footer-item {
-    float: left;
-  }
-  input {
-    clear: both;
-  }}*/

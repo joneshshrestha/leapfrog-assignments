@@ -1,9 +1,18 @@
-ul {
+.header-item {
   list-style-type: none;
   margin-left: auto;
   padding: 0;
   overflow: hidden;
   display: flex;
+}
+
+.project-list ul {
+  list-style-type: none;
+  margin-left: auto;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 ul li {

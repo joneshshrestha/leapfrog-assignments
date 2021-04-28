@@ -138,7 +138,7 @@ input {
 .bottom-header-itemR ul li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 5`px;
+  margin-left: 5px;
 }
 
 .bottom-header-itemR ul li:first-child {

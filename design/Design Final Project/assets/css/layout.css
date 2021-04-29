@@ -21,6 +21,14 @@
   margin: auto;
 }
 
+.footer-main {
+  display: block;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #373737;
+}
+
 /* .menu-item {
   display: block;
   margin-bottom: 10rem;

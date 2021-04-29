@@ -17,7 +17,7 @@
 }
 
 .site-nav {
-  padding-top: 4rem;
+  padding-top: 5rem;
   background-color: #ededed;
 }
 
@@ -33,12 +33,19 @@
   display: none;
 }
 
+.icon {
+  margin-top: -1rem;
+}
+
 .top-item-left {
   float: left;
+  margin: auto;
+  padding-left: 0.3rem;
 }
 
 .top-item-right {
   float: right;
+  padding-left: 0.3rem;
 }
 
 .top-item-right input {
@@ -146,61 +153,65 @@
 .team-1 {
   background-image: url(../img/profile-1.png), url(../img/profile-backimage.png);
   background-repeat: no-repeat;
-  background-position: 2rem;
+  background-position: center center;
   background-size: auto;
-  margin-left: 2rem;
   height: 14rem;
 }
 
 .team-2 {
   background-image: url(../img/profile-2.png), url(../img/profile-backimage.png);
   background-repeat: no-repeat;
-  background-position: 2rem;
+  background-position: center center;
   background-size: auto;
   margin-top: 3rem;
-  margin-left: 2rem;
   height: 14rem;
 }
 
 .team-3 {
   background-image: url(../img/profile-3.png), url(../img/profile-backimage.png);
   background-repeat: no-repeat;
-  background-position: 2rem;
+  background-position: center center;
   background-size: auto;
   margin-top: 3rem;
-  margin-left: 2rem;
   height: 14rem;
 }
 
 .team-4 {
   background-image: url(../img/profile-4.png), url(../img/profile-backimage.png);
   background-repeat: no-repeat;
-  background-position: 2rem;
+  background-position: center center;
   background-size: auto;
   margin-top: 3rem;
-  margin-left: 2rem;
   margin-bottom: 4rem;
   height: 14rem;
 }
 
 .team-member {
   list-style: none;
+  margin: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .team-member img {
-  margin: auto;
-  padding-top: 11.4rem;
-  padding-left: 13.3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10.9rem;
+  padding-left: 9.9rem;
+  width: 2.3rem;
 }
 
 .team-member h5 {
   margin: auto;
+  text-align: center;
   padding-top: 2rem;
   padding-left: 2.5rem;
 }
 
 .team-member h6 {
   margin: auto;
+  text-align: center;
   padding-top: 0.2rem;
   padding-left: 2.5rem;
   color: grey;
@@ -270,4 +281,90 @@
   color: grey;
   font-size: 10px;
   line-height: 1rem;
+  padding-bottom: 2rem;
+}
+
+.footer-left img {
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 5%;
+}
+
+.footer-left p {
+  display: none;
+}
+
+.footer-link {
+  margin: auto;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.footer-link li {
+  padding-top: 1rem;
+}
+
+.footer-item {
+  margin: auto;
+  color: white;
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.footer-item li {
+  padding-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .menu-icon {
+    max-height: 5rem;
+    padding-right: 25px;
+  }
+  .site-nav {
+    padding-top: 7rem;
+  }
+  .site-nav a {
+    font-size: 1.5rem;
+  }
+
+  .top-item {
+    padding-bottom: 30px;
+  }
+  .top-item-left {
+    float: left;
+    margin: auto;
+    padding-left: 3rem;
+
+    font-size: 1.5rem;
+  }
+
+  .top-item-right {
+    float: right;
+    margin: auto;
+    padding-right: 3rem;
+  }
+
+  .top-item-right input {
+    background-position: 15.5rem;
+    background-size: 1.3rem;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 15px;
+  }
+
+  .top-item-left span {
+    background-position: 17.5rem;
+    background-size: 0.7rem;
+    width: 8.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
 }

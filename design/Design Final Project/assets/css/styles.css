@@ -69,6 +69,10 @@
   padding-bottom: 2rem;
 }
 
+.header-banner {
+  display: none;
+}
+
 .map-part img {
   max-width: 100%;
   height: auto;
@@ -89,7 +93,6 @@
 
 .map-part {
   background-color: #2d2d2d;
-  margin-top: 2rem;
   padding-top: 2rem;
   padding-bottom: 3rem;
   padding-left: 1rem;
@@ -218,21 +221,36 @@
 }
 
 .blogs {
-  background-color: white;
+  background-color: #ededed;
   margin: auto;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.blog-item #first {
+  border: 1px solid grey;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.blog-item #second {
+  box-shadow: 0px 0px 4px grey;
+  background-color: white;
+  margin-bottom: 1rem;
 }
 
 .blog-item li {
   list-style: none;
-  padding-top: 2rem;
+  padding-top: 0rem;
 }
 
 .blog-item h2 {
   margin: auto;
   padding-top: 3rem;
   padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .blog-item h6 {
@@ -240,12 +258,17 @@
   color: #7a50a1;
   line-height: 1rem;
   padding-bottom: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .blog-item p {
   color: grey;
   font-size: 10px;
   line-height: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .plus {
@@ -255,6 +278,7 @@
   background-size: auto;
   float: left;
   margin-left: -2rem;
+  margin-top: -0.6rem;
   height: 3rem;
   width: 3.9rem;
 }
@@ -262,12 +286,16 @@
 .blog-main {
   margin: auto;
   padding-top: 2rem;
+  border: 1px solid grey;
+  background-color: white;
 }
 
 .blog-main h2 {
   margin: auto;
   padding-top: 3rem;
   padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .blog-main h6 {
@@ -275,6 +303,8 @@
   color: #7a50a1;
   line-height: 1rem;
   padding-bottom: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .blog-main p {
@@ -282,6 +312,12 @@
   font-size: 10px;
   line-height: 1rem;
   padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.blog-main .plus {
+  margin-top: -2.6rem;
 }
 
 .footer-left img {
@@ -361,9 +397,91 @@
     background-size: 0.7rem;
     width: 8.5rem;
   }
+
+  .footer-left {
+    width: 50%;
+    float: left;
+  }
+
+  .footer-right {
+    margin-left: 50%;
+  }
 }
 
 @media (min-width: 992px) {
+  .header-banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    margin-top: 3rem;
+    margin-left: -1rem;
+    padding-right: 1.3rem;
+    overflow: hidden;
+  }
+
+  .header-image {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .message {
+    position: absolute;
+    top: 242px;
+    left: 530px;
+  }
+
+  .circle {
+    position: absolute;
+    top: 200px;
+    left: 490px;
+  }
+
+  .map-part {
+    margin: auto;
+    padding-top: 3rem;
+  }
+
+  .team-member::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .team-1 {
+    float: left;
+    width: 33.33%;
+  }
+  .team-2 {
+    margin: auto;
+    float: left;
+    width: 33.33%;
+  }
+  .team-3 {
+    margin: auto;
+    float: left;
+    width: 33.33%;
+  }
+  .team-4 {
+    float: left;
+    width: 33.33%;
+  }
+  .blog-item li {
+    width: 50%;
+    float: left;
+  }
+
+  .blog-item h6 {
+    padding-right: 2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .blog-item p {
+    padding-right: 2rem;
+  }
+  .blog-main {
+  }
 }
 
 @media (min-width: 1200px) {

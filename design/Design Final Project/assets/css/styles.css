@@ -409,6 +409,10 @@
 }
 
 @media (min-width: 992px) {
+  .wrapper {
+    padding-bottom: 0px;
+  }
+
   .header-banner {
     position: relative;
     top: 0;
@@ -444,6 +448,10 @@
     padding-top: 3rem;
   }
 
+  .team {
+    height: auto;
+  }
+
   .team-member::after {
     content: "";
     clear: both;
@@ -467,20 +475,23 @@
     float: left;
     width: 33.33%;
   }
-  .blog-item li {
-    width: 50%;
+
+  .blog-item #first {
     float: left;
+    width: 49%;
   }
 
-  .blog-item h6 {
-    padding-right: 2rem;
-    padding-bottom: 1.2rem;
+  .blog-item #second {
+    float: right;
+    width: 49%;
   }
 
-  .blog-item p {
-    padding-right: 2rem;
+  .blog-item li {
+    display: inline;
   }
   .blog-main {
+    clear: both;
+    position: relative;
   }
 }
 

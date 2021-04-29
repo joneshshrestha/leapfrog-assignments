@@ -1,0 +1,273 @@
+/* This is from 0px to 768px */
+.logo {
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 7%;
+  float: left;
+}
+
+.menu-icon {
+  display: block;
+  max-height: 3rem;
+  float: right;
+  right: 0;
+  top: 0;
+  padding-top: 15px;
+  position: absolute;
+}
+
+.site-nav {
+  padding-top: 4rem;
+  background-color: #ededed;
+}
+
+.site-nav a {
+  display: block;
+  color: black;
+  padding: 20px 0px 4px 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.site-nav #my-links {
+  display: none;
+}
+
+.top-item-left {
+  float: left;
+}
+
+.top-item-right {
+  float: right;
+}
+
+.top-item-right input {
+  background-image: url(../img/clock\ .png);
+  background-repeat: no-repeat;
+  background-position: 7.3rem;
+  background-size: 0.78rem;
+  width: 8.5rem;
+}
+
+.top-item-left span {
+  background-image: url(../img/up-down.png);
+  background-repeat: no-repeat;
+  background-position: 11.5rem;
+  background-size: 0.5rem;
+  width: 8.5rem;
+}
+
+.menu-item li {
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.map-part img {
+  max-width: 100%;
+  height: auto;
+}
+
+.map-item {
+  background-color: #2d2d2d;
+  list-style: none;
+}
+
+.map-item li {
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 2.5rem;
+  font-size: 20px;
+}
+
+.map-part {
+  background-color: #2d2d2d;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.map-sub-heading {
+  text-align: center;
+  color: #7a50a1;
+  padding-top: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+.map-heading {
+  text-align: center;
+  color: white;
+}
+
+.map-item p {
+  display: none;
+}
+
+.laptop-banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.laptop-item {
+  margin-top: -3rem;
+}
+
+.laptop-sub-heading {
+  text-align: center;
+  color: #7a50a1;
+  padding-top: 0.2rem;
+  padding-bottom: 1rem;
+  font-size: 5px;
+}
+
+.laptop-heading {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
+
+.team-heading {
+  text-align: center;
+  color: grey;
+  font-size: 25px;
+  padding-top: 2.2rem;
+}
+
+.team-sub-heading {
+  text-align: center;
+  color: #7a50a1;
+  padding-top: 0.2rem;
+  padding-bottom: 1rem;
+  font-size: 8px;
+}
+
+.team-1 {
+  background-image: url(../img/profile-1.png), url(../img/profile-backimage.png);
+  background-repeat: no-repeat;
+  background-position: 2rem;
+  background-size: auto;
+  margin-left: 2rem;
+  height: 14rem;
+}
+
+.team-2 {
+  background-image: url(../img/profile-2.png), url(../img/profile-backimage.png);
+  background-repeat: no-repeat;
+  background-position: 2rem;
+  background-size: auto;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  height: 14rem;
+}
+
+.team-3 {
+  background-image: url(../img/profile-3.png), url(../img/profile-backimage.png);
+  background-repeat: no-repeat;
+  background-position: 2rem;
+  background-size: auto;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  height: 14rem;
+}
+
+.team-4 {
+  background-image: url(../img/profile-4.png), url(../img/profile-backimage.png);
+  background-repeat: no-repeat;
+  background-position: 2rem;
+  background-size: auto;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+  height: 14rem;
+}
+
+.team-member {
+  list-style: none;
+}
+
+.team-member img {
+  margin: auto;
+  padding-top: 11.4rem;
+  padding-left: 13.3rem;
+}
+
+.team-member h5 {
+  margin: auto;
+  padding-top: 2rem;
+  padding-left: 2.5rem;
+}
+
+.team-member h6 {
+  margin: auto;
+  padding-top: 0.2rem;
+  padding-left: 2.5rem;
+  color: grey;
+}
+
+.blogs {
+  background-color: white;
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.blog-item li {
+  list-style: none;
+  padding-top: 2rem;
+}
+
+.blog-item h2 {
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.blog-item h6 {
+  text-align: justify;
+  color: #7a50a1;
+  line-height: 1rem;
+  padding-bottom: 1.2rem;
+}
+
+.blog-item p {
+  color: grey;
+  font-size: 10px;
+  line-height: 1rem;
+}
+
+.plus {
+  background-image: url(../img/plus.png);
+  background-repeat: no-repeat;
+  background-position: 2rem;
+  background-size: auto;
+  float: left;
+  margin-left: -2rem;
+  height: 3rem;
+  width: 3.9rem;
+}
+
+.blog-main {
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.blog-main h2 {
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.blog-main h6 {
+  text-align: justify;
+  color: #7a50a1;
+  line-height: 1rem;
+  padding-bottom: 1.2rem;
+}
+
+.blog-main p {
+  color: grey;
+  font-size: 10px;
+  line-height: 1rem;
+}

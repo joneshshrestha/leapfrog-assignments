@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: ebebeb;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.top-item {
+  display: block;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.menu-item {
+  display: none;
+}
+
+.team {
+  display: block;
+  margin: auto;
+}
+
+/* .menu-item {
+  display: block;
+  margin-bottom: 10rem;
+  margin-left: 0;
+  list-style: none;
+  padding-top: 3rem;
+} */

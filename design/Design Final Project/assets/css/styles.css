@@ -865,4 +865,9 @@
     line-height: 0.8rem;
     color: grey;
   }
+  .footer-item li {
+    display: inline-block;
+    font-size: 11px;
+    padding-right: 3rem;
+  }
 }

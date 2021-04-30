@@ -546,7 +546,7 @@
     background-color: white; /*change this */
   }
   .logo {
-    height: 12%;
+    height: 9%;
     padding-top: 2rem;
   }
   .top-item {
@@ -566,6 +566,7 @@
     padding-left: 1rem;
     padding-top: 2rem;
     font-size: 10px;
+    margin-left: 0px;
   }
 
   .top-item-left span {
@@ -579,7 +580,7 @@
     margin-top: 1.1rem;
   }
   .top-item-right input {
-    height: 8%;
+    height: 5%;
   }
   .menu-icon {
     display: none;
@@ -714,8 +715,8 @@
     width: 100.5%;
   }
   .map-item {
-    width: 200vh;
-    padding-left: 10rem;
+    max-width: 200vh;
+    margin-left: 10rem;
   }
   .map-item li {
     display: inline-block;

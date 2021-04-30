@@ -604,7 +604,7 @@
     display: inline-block;
     padding-left: 10rem;
     padding-right: 10rem;
-    margin-bottom: -0.9rem;
+    margin-bottom: -1.9rem;
     z-index: 1;
     position: relative;
   }
@@ -831,5 +831,38 @@
     padding-left: 3rem;
     padding-right: 4rem;
     line-height: 1.3rem;
+  }
+
+  .footer-main {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    height: 25rem;
+  }
+  .footer-left img {
+    height: 4rem;
+  }
+  .footer-left p {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 1.2rem;
+    padding-top: 1rem;
+    color: #fff;
+    width: 25rem;
+  }
+  .footer-link li {
+    display: inline-block;
+    padding-top: 0rem;
+    font-size: 10px;
+    padding-right: 7px;
+  }
+  .footer-link {
+    padding-top: 2rem;
+    float: left;
+    text-align: left;
+  }
+  .footer-left .last-one {
+    font-size: 9px;
+    line-height: 0.8rem;
+    color: grey;
   }
 }

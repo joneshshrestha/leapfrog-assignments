@@ -2,7 +2,7 @@
 .logo {
   padding-top: 10px;
   padding-left: 10px;
-  height: 7%;
+  height: 6%;
   float: left;
 }
 
@@ -43,13 +43,17 @@
 
 .top-item-left {
   float: left;
-  margin: auto;
   padding-left: 0.3rem;
+  padding-top: 2.5rem;
+  font-size: 12px;
 }
 
 .top-item-right {
   float: right;
   padding-left: 0.3rem;
+  padding-top: 2rem;
+  width: auto;
+  padding-right: 3rem;
 }
 
 .top-item-right input {
@@ -60,13 +64,14 @@
   width: 8.5rem;
   border: 0px;
   box-shadow: 0px 0px 3px grey;
+  padding-top: 8px;
 }
 
 .top-item-left span {
   background-image: url(../img/up-down.png);
   background-repeat: no-repeat;
-  background-position: 11.5rem;
-  background-size: 0.5rem;
+  background-position: 9rem;
+  background-size: -0.5rem;
   width: 8.5rem;
 }
 
@@ -196,6 +201,7 @@
 }
 
 .team-member {
+  background-color: #ebebeb;
   list-style: none;
   margin: auto;
   padding-left: 3rem;
@@ -229,13 +235,14 @@
 .blogs {
   background-color: #ededed;
   margin: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
   padding-bottom: 2rem;
+}
+.blog-item {
+  margin-top: 43rem;
 }
 
 .blog-item #first {
-  border: 1px solid grey;
+  box-shadow: 0px 0px 3px grey;
   background-color: white;
   margin-bottom: 1rem;
 }
@@ -260,7 +267,7 @@
 }
 
 .blog-item h6 {
-  text-align: justify;
+  text-align: left;
   color: #7a50a1;
   line-height: 1rem;
   padding-bottom: 1.2rem;
@@ -292,7 +299,7 @@
 .blog-main {
   margin: auto;
   padding-top: 2rem;
-  border: 1px solid grey;
+  box-shadow: 0px 0px 3px grey;
   background-color: white;
 }
 
@@ -362,6 +369,13 @@
 }
 
 @media (min-width: 768px) {
+  .page-content {
+    background-color: #ebebeb;
+  }
+  .logo {
+    height: 4.5rem;
+  }
+
   .menu-icon {
     max-height: 5rem;
     padding-right: 25px;
@@ -372,22 +386,23 @@
   .site-nav a {
     font-size: 1.5rem;
   }
-
   .top-item {
-    padding-bottom: 30px;
+    background-color: #ebebeb;
   }
+
   .top-item-left {
     float: left;
-    margin: auto;
-    padding-left: 3rem;
-
-    font-size: 1.5rem;
+    padding-top: 6rem;
+    margin-left: -14.5rem;
+    font-size: 19px;
+  }
+  .top-item-left span {
+    background-position: 14rem;
   }
 
   .top-item-right {
-    float: right;
-    margin: auto;
-    padding-right: 3rem;
+    padding-top: 5.9rem;
+    width: 24rem;
   }
 
   .top-item-right input {
@@ -397,13 +412,12 @@
     padding-right: 140px;
     padding-top: 15px;
   }
-
-  .top-item-left span {
-    background-position: 17.5rem;
-    background-size: 0.7rem;
-    width: 8.5rem;
+  .team-member {
+    background-color: #ebebeb;
   }
-
+  .blog-item {
+    margin-top: 43rem;
+  }
   .footer-left {
     width: 50%;
     float: left;
@@ -425,10 +439,27 @@
     left: 0;
     width: 100%;
     display: block;
-    margin-top: 3rem;
     margin-left: -1rem;
     padding-right: 1.3rem;
+    padding-top: 1rem;
     overflow: hidden;
+  }
+  .logo {
+    height: 5rem;
+  }
+  .top-item {
+    background-color: #ebebeb;
+  }
+
+  .top-item-left {
+    float: left;
+    padding-top: 6rem;
+    margin-left: -19rem;
+  }
+
+  .top-item-right {
+    padding-top: 5.9rem;
+    padding-right: 10rem;
   }
 
   .header-image {
@@ -482,6 +513,9 @@
     width: 33.33%;
   }
 
+  .blog-item {
+    margin-top: 1rem;
+  }
   .blog-item #first {
     float: left;
     width: 49%;
@@ -490,6 +524,7 @@
   .blog-item #second {
     float: right;
     width: 49%;
+    height: 15.9rem;
   }
 
   .blog-item li {
@@ -762,5 +797,39 @@
     width: 23.8%;
     padding: 5px;
     margin: 0 auto;
+  }
+
+  .blogs {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .blog-item #second {
+    height: 20.55rem;
+  }
+  .blog-item h2 {
+    padding-left: 3rem;
+  }
+  .blog-item h6 {
+    padding-left: 3rem;
+    padding-right: 4rem;
+    line-height: 1.3rem;
+  }
+  .blog-item p {
+    padding-left: 3rem;
+    padding-right: 4rem;
+    line-height: 1.3rem;
+  }
+  .blog-main h2 {
+    padding-left: 3rem;
+  }
+  .blog-main h6 {
+    padding-left: 3rem;
+    padding-right: 4rem;
+    line-height: 1.3rem;
+  }
+  .blog-main p {
+    padding-left: 3rem;
+    padding-right: 4rem;
+    line-height: 1.3rem;
   }
 }

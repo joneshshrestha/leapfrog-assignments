@@ -1,12 +1,16 @@
+.page-content {
+  background-color: #ebebeb;
+}
 .wrapper {
   background-color: #ebebeb;
   margin: auto;
   padding-left: 5px;
   padding-right: 5px;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .top-item {
+  background-color: #ebebeb;
   display: block;
   margin: auto;
   padding-top: 1rem;

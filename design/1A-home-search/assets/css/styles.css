@@ -89,6 +89,13 @@ input {
   text-decoration: none;
 }
 
+.search-btnR button {
+  background-color: #264f55;
+  color: white;
+  padding-right: 5px;
+  border: 0;
+}
+
 /* Bottom Header */
 
 .home ul {
@@ -121,6 +128,11 @@ input {
   margin-right: 32px;
   margin-left: 8px;
   font-size: 13px;
+}
+
+.bottom-header-itemL li a {
+  text-decoration: none;
+  color: #000;
 }
 
 .bottom-header-itemR ul li {

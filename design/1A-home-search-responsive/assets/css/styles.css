@@ -260,7 +260,6 @@ input {
   list-style-type: none;
   overflow: hidden;
   float: left;
-  padding-bottom: 10px;
 }
 
 .post div a:hover {

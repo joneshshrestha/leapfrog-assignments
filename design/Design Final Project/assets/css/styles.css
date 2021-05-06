@@ -127,7 +127,7 @@
 }
 
 .laptop-banner img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -368,6 +368,10 @@
   padding-top: 1rem;
 }
 
+.footer-item2 {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .page-content {
     background-color: #ebebeb;
@@ -463,6 +467,8 @@
   }
 
   .header-image {
+    width: 100%;
+    height: auto;
     position: relative;
     top: 0;
     left: 0;
@@ -524,7 +530,6 @@
   .blog-item #second {
     float: right;
     width: 49%;
-    height: 15.9rem;
   }
 
   .blog-item li {
@@ -715,8 +720,8 @@
     width: 100.5%;
   }
   .map-item {
-    max-width: 200vh;
-    margin-left: 10rem;
+    margin: 0 auto;
+    width: 1000px;
   }
   .map-item li {
     display: inline-block;
@@ -804,9 +809,7 @@
     margin-left: 10rem;
     margin-right: 10rem;
   }
-  .blog-item #second {
-    height: 20.55rem;
-  }
+
   .blog-item h2 {
     padding-left: 3rem;
   }
@@ -843,10 +846,10 @@
     height: 4rem;
   }
   .footer-left p {
-    display: inline-block;
+    display: block;
     font-size: 10px;
     line-height: 1.2rem;
-    padding-top: 1rem;
+    padding-top: 6rem;
     color: #fff;
     width: 25rem;
   }
@@ -870,5 +873,39 @@
     display: inline-block;
     font-size: 11px;
     padding-right: 3rem;
+  }
+  .footer-item .portfolio {
+    background-image: url(../img/purple-footer.png);
+    background-repeat: no-repeat;
+    background-position: -2px 41px;
+    padding-bottom: 1rem;
+}
+  }
+  .footer-item2 {
+    display: block;
+    margin: auto;
+    color: white;
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 455px;
+  }
+  .footer-item2 li {
+    padding-top: 1rem;
+    display: inline-block;
+    font-size: 11px;
+    padding-right: 3rem;
+  }
+  .footer-item2 li img {
+    width: 15px;
+    padding-right: 6px;
+  }
+  .footer-item2 .facebook {
+    width: 6px;
+    padding-right: 6px;
+  }
+  .footer-item2 .rss {
+    width: 10px;
+    padding-right: 6px;
   }
 }

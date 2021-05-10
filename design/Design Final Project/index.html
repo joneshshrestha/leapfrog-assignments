@@ -14,144 +14,182 @@
     <title>Design Final Project: Responsive</title>
   </head>
   <body>
-    <header class="site-header" role="banner">
-      <div class="header-wrapper">
-        <a href="./index.html"
-          ><img class="logo" src="./assets/img/logo.png" alt="logo"
-        /></a>
-        <div class="top-header-item">
-          <div class="top-item">
-            <span class="quick-link">Quicklinks <img src="./assets/img/location.png" alt="location marker"><img src="./assets/img/top-header-pipe.png" alt=""></span>
-            <div class="top-item-left">
-              <span>Select from dropdown &nbsp; &nbsp; &nbsp; &nbsp; </span>
+    <div class="clearfix"> 
+      <header class="site-header" role="banner">
+        <div class="header-wrapper">
+          <a href="./index.html"
+            ><img class="logo" src="./assets/img/logo.png" alt="logo"
+          /></a>
+          <div class="top-header-item">
+            <div class="top-item">
+              <span class="quick-link">Quicklinks <img src="./assets/img/location.png" alt="location marker"><img src="./assets/img/top-header-pipe.png" alt=""></span>
+              <div class="top-item-left">
+                <span>Select from dropdown &nbsp; &nbsp; &nbsp; &nbsp; </span>
+              </div>
+              <div class="top-item-right">
+                <input type="text" name="search" id="search" placeholder="Search for something here" />
+              </div>
             </div>
-            <div class="top-item-right">
-              <input type="text" name="search" id="search" placeholder="Search for something here" />
+
+          </div>
+          <nav class="site-nav">
+            <div id="my-links">
+              <a href="#">Travel Guide</a>
+              <a href="#">Services</a>
+              <a href="#">About</a>
+              <a href="#">The Tour</a>
+              <a href="#">How to</a>
+              <a href="#">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menu()">
+              <img
+                class="menu-icon"
+                src="./assets/img/hamburger-menu.png"
+                alt="menu"
+              />
+            </a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="page-content">
+        <div class="wrapper">
+          <ul class="menu-item">
+            <li class="li-first">Travel Guide</li>
+            <li class="li-second">Services</li>
+            <li class="li-third">About</li>
+            <li class="li-fourth">The Tour</li>
+            <li class="li-fifth">How to</li>
+            <li class="li-sixth">Contact</li>
+          </ul>
+          <div class="header-banner">
+            <img class="header-image" src="./assets/img/banner.png" alt="banner" />
+            <img class="circle" src="./assets/img/purple-circle.png" alt="circle">
+            <img class="message" src="./assets/img/message.png" alt="message">
+
             </div>
           </div>
-
-        </div>
-        <nav class="site-nav">
-          <div id="my-links">
-            <a href="#">Travel Guide</a>
-            <a href="#">Services</a>
-            <a href="#">About</a>
-            <a href="#">The Tour</a>
-            <a href="#">How to</a>
-            <a href="#">Contact</a>
+          <div class="map-part">
+            <h2 class="map-heading">Anywhere, anytime, where here to help.</h2>
+            <h6 class="map-sub-heading">And we mean that.</h6>
+            <img src="./assets/img/map.png" alt="demo map" />
+            <ul class="map-item">
+              <li>
+                <h6>Save Time</h6>
+                <p>
+                  Lets throw a trackie dacks also it'll be gutta. You little
+                  ripper avos flamin lets throw a lizard drinking. Gutful of jug
+                  where as busy as a big smoke. Grab us a billy as cunning as a
+                  bull bar. As cunning as a bonzer flamin as stands out like cubby
+                  house. As cross as a mate no dramas as cunning as a bonzer.
+                  Gutful of kindie flamin as cross as a grundies. Lets throw a
+                  
+                </p>
+              </li>
+              <li>
+                <h6>Win over the team</h6>
+                <p>
+                  As cunning as a bonzer flamin as stands out like cubby house. As
+                  cross as a mate no dramas as cunning as a bonzer. Gutful of
+                  kindie flamin as cross as a grundies. Lets throw a strides also
+                  as cross as a thingo. <br>
+                  Built like a old fella no dramas grab us a
+                  ten clicks away.
+                </p>
+              </li>
+              <li>
+                <h6>Design Features</h6>
+                <p>
+                  Built like a old fella no dramas grab us a ten clicks away. Lets
+                  get some digger when she'll be right metho. As cross as a no
+                  dramas as cunning as a barrack. <br>
+                  A old fella no dramas grab us a
+                  ten clicks away. Lets get some digger when she'll be right
+                  metho. As cross as a no dramas as cunning as a barrack.
+                </p>
+              </li>
+            </ul>
           </div>
-          <a href="javascript:void(0);" class="icon" onclick="menu()">
-            <img
-              class="menu-icon"
-              src="./assets/img/hamburger-menu.png"
-              alt="menu"
-            />
-          </a>
-        </nav>
-      </div>
-    </header>
-
-    <main class="page-content">
-      <div class="wrapper">
-        <ul class="menu-item">
-          <li class="li-first">Travel Guide</li>
-          <li class="li-second">Services</li>
-          <li class="li-third">About</li>
-          <li class="li-fourth">The Tour</li>
-          <li class="li-fifth">How to</li>
-          <li class="li-sixth">Contact</li>
-        </ul>
-        <div class="header-banner">
-          <img class="header-image" src="./assets/img/banner.png" alt="banner" />
-          <img class="circle" src="./assets/img/purple-circle.png" alt="circle">
-          <img class="message" src="./assets/img/message.png" alt="message">
-
+          <div class="laptop-banner">
+            <img src="./assets/img/laptop.png" alt="laptop banner" />
+            <div class="laptop-item">
+              <h2 class="laptop-heading">A simple begining lead to big ideas</h2>
+              <h6 class="laptop-sub-heading">
+                We started small but grew quickly
+              </h6>
+            </div>
           </div>
-        </div>
-        <div class="map-part">
-          <h2 class="map-heading">Anywhere, anytime, where here to help.</h2>
-          <h6 class="map-sub-heading">And we mean that.</h6>
-          <img src="./assets/img/map.png" alt="demo map" />
-          <ul class="map-item">
-            <li>
-              <h6>Save Time</h6>
-              <p>
-                Lets throw a trackie dacks also it'll be gutta. You little
-                ripper avos flamin lets throw a lizard drinking. Gutful of jug
-                where as busy as a big smoke. Grab us a billy as cunning as a
-                bull bar. As cunning as a bonzer flamin as stands out like cubby
-                house. As cross as a mate no dramas as cunning as a bonzer.
-                Gutful of kindie flamin as cross as a grundies. Lets throw a
-                
-              </p>
-            </li>
-            <li>
-              <h6>Win over the team</h6>
-              <p>
-                As cunning as a bonzer flamin as stands out like cubby house. As
-                cross as a mate no dramas as cunning as a bonzer. Gutful of
-                kindie flamin as cross as a grundies. Lets throw a strides also
-                as cross as a thingo. <br>
-                Built like a old fella no dramas grab us a
-                ten clicks away.
-              </p>
-            </li>
-            <li>
-              <h6>Design Features</h6>
-              <p>
-                Built like a old fella no dramas grab us a ten clicks away. Lets
-                get some digger when she'll be right metho. As cross as a no
-                dramas as cunning as a barrack. <br>
-                A old fella no dramas grab us a
-                ten clicks away. Lets get some digger when she'll be right
-                metho. As cross as a no dramas as cunning as a barrack.
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div class="laptop-banner">
-          <img src="./assets/img/laptop.png" alt="laptop banner" />
-          <div class="laptop-item">
-            <h2 class="laptop-heading">A simple begining lead to big ideas</h2>
-            <h6 class="laptop-sub-heading">
-              We started small but grew quickly
-            </h6>
+          <div class="team">
+            <h2 class="team-heading">A humble Team we are</h2>
+            <h6 class="team-sub-heading">We'll some of us anyways</h6>
+            <ul class="team-member">
+              <li class="team-1">
+                <img src="./assets/img/twitter.png" alt="twitter icon" />
+                <h5>Josh Jansen</h5>
+                <h6>Digital Producer</h6>
+              </li>
+              <li class="team-2">
+                <img src="./assets/img/twitter.png" alt="twitter icon" />
+                <h5>Blaz Robar</h5>
+                <h6>Designer</h6>
+              </li>
+              <li class="team-3">
+                <img src="./assets/img/twitter.png" alt="twitter icon" />
+                <h5>James Brown</h5>
+                <h6>Developer</h6>
+              </li>
+              <li class="team-4">
+                <img src="./assets/img/twitter.png" alt="twitter icon" />
+                <h5>Skeletor</h5>
+                <h6>Administration</h6>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="team">
-          <h2 class="team-heading">A humble Team we are</h2>
-          <h6 class="team-sub-heading">We'll some of us anyways</h6>
-          <ul class="team-member">
-            <li class="team-1">
-              <img src="./assets/img/twitter.png" alt="twitter icon" />
-              <h5>Josh Jansen</h5>
-              <h6>Digital Producer</h6>
-            </li>
-            <li class="team-2">
-              <img src="./assets/img/twitter.png" alt="twitter icon" />
-              <h5>Blaz Robar</h5>
-              <h6>Designer</h6>
-            </li>
-            <li class="team-3">
-              <img src="./assets/img/twitter.png" alt="twitter icon" />
-              <h5>James Brown</h5>
-              <h6>Developer</h6>
-            </li>
-            <li class="team-4">
-              <img src="./assets/img/twitter.png" alt="twitter icon" />
-              <h5>Skeletor</h5>
-              <h6>Administration</h6>
-            </li>
-          </ul>
-        </div>
-        <div class="blogs">
-          <ul class="blog-item">
-            <li id=first>
+          <div class="blogs">
+            <ul class="blog-item">
+              <li id=first>
+                <div class="plus"></div>
+                <h2>Winning Design Awards</h2>
+                <h6>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  eu turpis purus. Pellentesque ullamcorper mauris vitae sapien
+                  bibendum tincidunt. Check leo dignissim +
+                </h6>
+                <p>
+                  Morbi malesuada mauris sed nibh placerat sit amet posuere libero
+                  egestas. Vestibulum consectetur iaculis est, at dapibus purus
+                  malesuada vitae. Mauris sollicitudin aliquam scelerisque.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                  posuere cubilia Curae; Donec et mi sem. Duis tristique elementum
+                  tristique. Sed ac magna quis erat sagittis suscipit. Phasellus
+                  faucibus rhoncus massa, non laoreet lorem fringilla
+                </p>
+              </li>
+              <li id="second">
+                <div class="plus"></div>
+                <h2>Badass Features</h2>
+                <h6>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  eu turpis purus. Pellentesque ullamcorper mauris vitae sapien
+                  bibendum tincidunt. Check leo dignissim +
+                </h6>
+                <p>
+                  Morbi malesuada mauris sed nibh placerat sit amet posuere libero
+                  egestas. Vestibulum consectetur iaculis est, at dapibus purus
+                  malesuada vitae. Mauris sollicitudin aliquam scelerisque.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                  posuere cubilia Curae; Donec et mi sem. Duis tristique elementum
+                  tristique. Sed ac magna quis erat sagittis suscipit. Phasellus
+                  faucibus rhoncus massa, non laoreet lorem fringilla
+                </p>
+              </li>
+            </ul>
+            <div class="blog-main">
               <div class="plus"></div>
-              <h2>Winning Design Awards</h2>
+              <h2>A full col text box sits nicely like this</h2>
               <h6>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                eu turpis purus. Pellentesque ullamcorper mauris vitae sapien
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
+                turpis purus. Pellentesque ullamcorper mauris vitae sapien
                 bibendum tincidunt. Check leo dignissim +
               </h6>
               <p>
@@ -161,91 +199,55 @@
                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
                 posuere cubilia Curae; Donec et mi sem. Duis tristique elementum
                 tristique. Sed ac magna quis erat sagittis suscipit. Phasellus
-                faucibus rhoncus massa, non laoreet lorem fringilla
+                faucibus rhoncus massa, non laoreet lorem fringilla non.
               </p>
-            </li>
-            <li id="second">
-              <div class="plus"></div>
-              <h2>Badass Features</h2>
-              <h6>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                eu turpis purus. Pellentesque ullamcorper mauris vitae sapien
-                bibendum tincidunt. Check leo dignissim +
-              </h6>
+            </div>
+          </div>
+          <footer class="footer-main">
+            <div class="footer-left">
+              <a href="./index.html"
+                ><img class="logo" src="./assets/img/footer-logo.png" alt="logo"
+              /></a>
               <p>
-                Morbi malesuada mauris sed nibh placerat sit amet posuere libero
-                egestas. Vestibulum consectetur iaculis est, at dapibus purus
-                malesuada vitae. Mauris sollicitudin aliquam scelerisque.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                posuere cubilia Curae; Donec et mi sem. Duis tristique elementum
-                tristique. Sed ac magna quis erat sagittis suscipit. Phasellus
-                faucibus rhoncus massa, non laoreet lorem fringilla
+                Trent from punchy digger bloody gutful of mokkies. Get a dog up ya
+                fair dinkum mate as cross as a flake. Stands out like a bluey
+                flamin stands out like a pot. As stands out like christmas to grab
+                us a ugg boots. She'll be right buckley's chance my as stands out
+                like divvy van. It'll be smokes trent from punchy chewie.
               </p>
-            </li>
-          </ul>
-          <div class="blog-main">
-            <div class="plus"></div>
-            <h2>A full col text box sits nicely like this</h2>
-            <h6>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-              turpis purus. Pellentesque ullamcorper mauris vitae sapien
-              bibendum tincidunt. Check leo dignissim +
-            </h6>
-            <p>
-              Morbi malesuada mauris sed nibh placerat sit amet posuere libero
-              egestas. Vestibulum consectetur iaculis est, at dapibus purus
-              malesuada vitae. Mauris sollicitudin aliquam scelerisque.
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia Curae; Donec et mi sem. Duis tristique elementum
-              tristique. Sed ac magna quis erat sagittis suscipit. Phasellus
-              faucibus rhoncus massa, non laoreet lorem fringilla non.
-            </p>
-          </div>
+              <ul class="footer-link">
+                <li>About us</li>
+                <li>Footer Link here</li>
+                <li>Privacy</li>
+                <li>Icons by http://www.dribbble.com/joshuaandrewdavies</li>
+              </ul>
+              <p class="last-one">
+                As cross as a hoon my built like a op shop. We're going bored
+                sh*tless heaps she'll be right budgie smugglers. Grab us a durry
+                mate she'll be right dunny rat. She'll be right larrikin with
+                skite. As stands out like kero it'll be truckie. nch. Lets get
+                some icy pole no dramas as cross as a ya.
+              </p>
+            </div>
+            <div class="footer-right">
+              <ul class="footer-item">
+                <li class="portfolio">Portfolio</li>
+                <li>Services</li>
+                <li>Staff</li>
+                <li>Articles</li>
+                <li>Contact</li>
+              </ul>
+              <ul class="footer-item2">
+                <li><img src="./assets/img/twitter.png" alt="twitter icon"> Twitter</li>
+                <li><img class="facebook" src="./assets/img/facebook-footer.png" alt="facebook icon">Facebook</li>
+                <li><img class="rss" src="./assets/img/RSS-footer.png" alt="rss icon">RSS</li>
+                <li><img src="./assets/img/mail-footer.png" alt="mail icon">Mail</li>
+              </ul>
+            </div>
+          </footer>
         </div>
-        <footer class="footer-main">
-          <div class="footer-left">
-            <a href="./index.html"
-              ><img class="logo" src="./assets/img/footer-logo.png" alt="logo"
-            /></a>
-            <p>
-              Trent from punchy digger bloody gutful of mokkies. Get a dog up ya
-              fair dinkum mate as cross as a flake. Stands out like a bluey
-              flamin stands out like a pot. As stands out like christmas to grab
-              us a ugg boots. She'll be right buckley's chance my as stands out
-              like divvy van. It'll be smokes trent from punchy chewie.
-            </p>
-            <ul class="footer-link">
-              <li>About us</li>
-              <li>Footer Link here</li>
-              <li>Privacy</li>
-              <li>Icons by http://www.dribbble.com/joshuaandrewdavies</li>
-            </ul>
-            <p class="last-one">
-              As cross as a hoon my built like a op shop. We're going bored
-              sh*tless heaps she'll be right budgie smugglers. Grab us a durry
-              mate she'll be right dunny rat. She'll be right larrikin with
-              skite. As stands out like kero it'll be truckie. nch. Lets get
-              some icy pole no dramas as cross as a ya.
-            </p>
-          </div>
-          <div class="footer-right">
-            <ul class="footer-item">
-              <li class="portfolio">Portfolio</li>
-              <li>Services</li>
-              <li>Staff</li>
-              <li>Articles</li>
-              <li>Contact</li>
-            </ul>
-            <ul class="footer-item2">
-              <li><img src="./assets/img/twitter.png" alt="twitter icon"> Twitter</li>
-              <li><img class="facebook" src="./assets/img/facebook-footer.png" alt="facebook icon">Facebook</li>
-              <li><img class="rss" src="./assets/img/RSS-footer.png" alt="rss icon">RSS</li>
-              <li><img src="./assets/img/mail-footer.png" alt="mail icon">Mail</li>
-            </ul>
-          </div>
-        </footer>
-      </div>
-    </main>
+      </main>
+    </div>
     <script src="./assets/js/index.js"></script>
   </body>
 </html>

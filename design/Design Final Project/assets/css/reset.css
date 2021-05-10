@@ -1,5 +1,11 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.clearfix {
+  clear: both;
+  content: "";
+  display: table;
 }

@@ -14,6 +14,7 @@ canvas.style.margin = "0px auto";
 canvas.style.backgroundColor = "white";
 canvas.style.border = "3px solid black";
 let ctx = canvas.getContext("2d");
+let img = new Image();
 
 let generateRandomNumber = (min, max) => {
   min = Math.ceil(min);
@@ -22,11 +23,7 @@ let generateRandomNumber = (min, max) => {
 };
 
 let generateRandomColor = () => {
-  var red = generateRandomNumber(0, 255);
-  var blue = generateRandomNumber(0, 255);
-  var green = generateRandomNumber(0, 255);
-
-  return `rgb(${red},${green},${blue})`;
+  return `rgb(0,0,0)`;
 };
 
 // Ball class
@@ -36,17 +33,15 @@ class Ball {
     this.y = y;
     this.dx = Math.random() < 0.5 ? -1 : 1;
     this.dy = Math.random() < 0.5 ? -1 : 1;
-    this.radius = generateRandomNumber(10, 25);
+    this.radius = generateRandomNumber(15, 15);
     this.color = generateRandomColor();
     this.mass = 1;
   }
 
   // Draw ball
   draw() {
-    ctx.beginPath();
-    ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
-    ctx.fillStyle = this.color;
-    ctx.fill();
+    ctx.drawImage(img, this.x, this.y, 80, 80);
+    img.src = "./assets/img/ant.png";
   }
 
   // Update position of ball

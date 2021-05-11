@@ -64,7 +64,7 @@ CAROUSEL_IMAGE_WRAPPER.style.height = IMAGE_HEIGHT;
 
 // Indicator Dot
 let indicatorDot = document.createElement("div");
-indicatorDot.className = "dots-wrapper";
+indicatorDot.className = "indicator-dot";
 indicatorDot.style.display = "inline-block";
 indicatorDot.style.position = "absolute";
 indicatorDot.style.left = "50%";
@@ -91,7 +91,7 @@ for (image of IMAGES) {
   indicatorDot.appendChild(indicator);
 }
 
-let listOfIndicator = document.querySelectorAll(".dots-wrapper .indicator");
+let listOfIndicator = document.querySelectorAll(".indicator-dot .indicator");
 
 let isTransiting = false;
 // Current Image

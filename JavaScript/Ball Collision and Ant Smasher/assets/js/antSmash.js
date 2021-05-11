@@ -33,14 +33,13 @@ class Ball {
     this.y = y;
     this.dx = Math.random() < 0.5 ? -1 : 1;
     this.dy = Math.random() < 0.5 ? -1 : 1;
-    this.radius = generateRandomNumber(15, 15);
-    this.color = generateRandomColor();
+    this.radius = generateRandomNumber(10, 10);
     this.mass = 1;
   }
 
   // Draw ball
   draw() {
-    ctx.drawImage(img, this.x, this.y, 80, 80);
+    ctx.drawImage(img, this.x, this.y, 40, 40);
     img.src = "./assets/img/ant.png";
   }
 
@@ -49,10 +48,16 @@ class Ball {
     this.x = this.x + this.dx * SPEED;
     this.y = this.y + this.dy * SPEED;
 
-    if (this.x + this.radius >= CANVAS_WIDTH || this.x - this.radius <= 0) {
+    if (
+      this.x + this.radius >= CANVAS_WIDTH - 40 ||
+      this.x - this.radius <= -30
+    ) {
       this.dx *= -1;
     }
-    if (this.y - this.radius <= 0 || this.y + this.radius >= CANVAS_HEIGHT) {
+    if (
+      this.y - this.radius <= -30 ||
+      this.y + this.radius >= CANVAS_HEIGHT - 40
+    ) {
       this.dy *= -1;
     }
   }
@@ -162,10 +167,24 @@ let init = () => {
         generateRandomNumber(50, CANVAS_HEIGHT - CANVAS_OFFSET)
       );
     } while (isColliding(ball));
-
     ballList.push(ball);
   }
 };
+
+let mousePressed = (clickX, clickY) => {
+  for (let i = 0; i < ballList.length; i++) {
+    if (
+      Math.abs(ballList[i].x - clickX) < 10 &&
+      Math.abs(ballList[i].y - clickY < 10)
+    ) {
+      //   ctx.clearRect();
+    }
+  }
+};
+document.addEventListener("click", function (e) {
+  console.log(`${e.x} | ${e.y}`);
+  mousePressed(e.x, e.y);
+});
 
 setInterval(animate, 1000 / 60);
 

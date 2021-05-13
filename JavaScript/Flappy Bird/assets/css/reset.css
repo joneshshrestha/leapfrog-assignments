@@ -1,0 +1,11 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.clearfix {
+  clear: both;
+  content: "";
+  display: table;
+}

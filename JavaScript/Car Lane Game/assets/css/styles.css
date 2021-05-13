@@ -1,6 +1,14 @@
-* {
-  box-sizing: border-box;
+.start-game {
+  box-shadow: 0 0 20px 5px rgba(0, 28, 55, 0.5);
+  background-color: #211f2e;
+  color: #ffffff;
 }
+
+.end-game h1,
+.start-game h1 {
+  margin-bottom: 40px;
+}
+
 .end-game,
 .start-game {
   position: absolute;
@@ -19,15 +27,9 @@
   display: none;
 }
 
-.start-game {
-  box-shadow: 0 0 20px 5px rgba(0, 28, 55, 0.5);
-  background-color: #211f2e;
-  color: #ffffff;
-}
-
-.end-game h1,
-.start-game h1 {
-  margin-bottom: 40px;
+.end-game .restart-btn:hover,
+.start-game .start-btn:hover {
+  background-color: rgb(116, 116, 116);
 }
 
 .end-game .restart-btn,
@@ -40,9 +42,4 @@
   border-radius: 5px;
   font-weight: 600;
   cursor: pointer;
-}
-
-.end-game .restart-btn:hover,
-.start-game .start-btn:hover {
-  background-color: rgb(116, 116, 116);
 }

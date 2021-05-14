@@ -2,16 +2,16 @@ const CANVAS = document.getElementById("canvas");
 const ctx = CANVAS.getContext("2d");
 
 const S_POINT = new Audio();
-S_POINT.src = "./assets/sounds/BIRD-point.wav";
+S_POINT.src = "./assets/sounds/bird-point.wav";
 S_POINT.volume = 0.05;
 const S_FLAP = new Audio();
-S_FLAP.src = "./assets/sounds/BIRD-flap.wav";
+S_FLAP.src = "./assets/sounds/bird-flap.wav";
 S_FLAP.volume = 0.01;
 const S_DIE = new Audio();
-S_DIE.src = "./assets/sounds/BIRD-die.wav";
+S_DIE.src = "./assets/sounds/bird-die.wav";
 S_DIE.volume = 0.05;
 const S_HIT = new Audio();
-S_HIT.src = "./assets/sounds/BIRD-hit.wav";
+S_HIT.src = "./assets/sounds/bird-hit.wav";
 S_HIT.volume = 0.01;
 
 const WORLD = {

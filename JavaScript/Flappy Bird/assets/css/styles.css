@@ -1,0 +1,14 @@
+body {
+  background-color: #292929;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  background-color: aliceblue;
+}
+canvas {
+  display: block;
+  margin: 100px auto 20px;
+}

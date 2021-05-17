@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.carousel-container {
+  margin: 0 auto;
+  width: 60%;
+  height: 400px;
+  position: relative;
+}
+

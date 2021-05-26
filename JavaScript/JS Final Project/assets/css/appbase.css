@@ -16,7 +16,7 @@ a {
   width: 100%;
   height: 100%;
   color: #fff;
-  background-image: url("/assets/img/smartsearch_splashscreen.png");
+  background-image: url("../img/smartsearch_splashscreen.png");
   background-position: center;
   background-color: #fff;
   background-repeat: no-repeat;

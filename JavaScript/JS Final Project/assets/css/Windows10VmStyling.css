@@ -323,7 +323,7 @@ p {
 }
 ::-webkit-scrollbar-button {
   background-color: #faf9f9;
-  background-image: url(/assets/img/Windows10VmNavControls.png);
+  background-image: url(../img/Windows10VmNavControls.png);
   background-repeat: no-repeat;
 }
 ::-webkit-scrollbar-button:vertical {

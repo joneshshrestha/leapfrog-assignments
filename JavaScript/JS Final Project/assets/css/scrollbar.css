@@ -1,0 +1,53 @@
+::-webkit-scrollbar {
+  background-color: #efefef;
+  padding: 0;
+}
+/* UP, DOWN, LEFT and RIGHT button styling */
+::-webkit-scrollbar-button:hover {
+  background-color: #dbdbdb !important;
+}
+::-webkit-scrollbar-button:vertical:decrement {
+  background: url("/assets/img/up.png") no-repeat center;
+}
+::-webkit-scrollbar-button:vertical:increment {
+  background: url("/assets/img/down.png") no-repeat center;
+}
+::-webkit-scrollbar-button:horizontal:decrement {
+  background: url("/assets/img/left.png") no-repeat center;
+}
+::-webkit-scrollbar-button:horizontal:increment {
+  background: url("/assets/img/right.png") no-repeat center;
+}
+::-webkit-scrollbar-button:active:vertical:decrement {
+  background: url("/assets/img/up-active.png") no-repeat center #606060 !important;
+}
+::-webkit-scrollbar-button:active:vertical:increment {
+  background: url("/assets/img/down-active.png") no-repeat center #606060 !important;
+}
+::-webkit-scrollbar-button:active:horizontal:decrement {
+  background: url("/assets/img/left-active.png") no-repeat center #606060 !important;
+}
+::-webkit-scrollbar-button:active:horizontal:increment {
+  background: url("/assets/img/right-active.png") no-repeat center #606060 !important;
+}
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #cdcdcd;
+  opacity: 1;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a6a6a6;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #606060;
+}
+/* Some unstyled stuff */
+::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track-piece {
+}
+
+::-webkit-scrollbar-corner {
+}
+::-webkit-resizer {
+}

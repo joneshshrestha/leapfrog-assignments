@@ -6,13 +6,113 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/layout.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <script
-      src="https://kit.fontawesome.com/6ddea86416.js"
-      crossorigin="anonymous"
-    ></script>
     <title>JS Final Project</title>
   </head>
   <body>
+    <meta name="theme-color" content="#f44336" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/Windows10VmStyling.css"
+      type="text/css"
+    />
+    <script
+      type="text/javascript"
+      src="./assets/js/Windows10VmCore.js"
+    ></script>
+
+    <div id="desk">
+      <div class="Desktop" draggable="false">
+        <script>
+          var EdgeNumber = parseInt("0");
+          var MirumNumber = parseInt("4000");
+          var NotesNumber = parseInt("8000");
+        </script>
+        <!--Start of Edge Button-->
+
+        <span
+          class="icon"
+          ondblclick="EdgeNumber += 1;edge=dhtmlwindow.open(EdgeNumber, 'iframe', 'edge.html', 'Edge', 'width=550px,height=350px,center=1,scrolling=0,resize=1')"
+          ><img src="./assets/img/Edge.png" draggable="false" /><br />Edge</span
+        >
+
+        <span
+          class="icon"
+          ondblclick="NotesNumber += 1;divwin=dhtmlwindow.open(NotesNumber, 'div', 'notes', 'Notes', 'width=300px,height=300px,center=1,resize=1,scrolling=1')"
+          ><img
+            src="./assets/img/Notes.png"
+            draggable="false"
+          /><br />Notes</span
+        >
+
+        <span
+          class="icon"
+          ondblclick="helpmewin=dhtmlwindow.open('helpme', 'iframe', 'help.html', 'OS Desktop help', 'width=800px,height=400px,left=300px,top=50px,resize=1,scrolling=1')"
+          ><img src="./assets/img/Help.png" draggable="false" /><br />Help</span
+        >
+
+        <span
+          class="icon"
+          ondblclick="About=dhtmlwindow.open('aboutme', 'iframe', 'about.html', 'About', 'width=1070px,height=540px,center=1,scrolling=0,resize=1')"
+          ><img
+            src="./assets/img/About.png"
+            draggable="false"
+          /><br />About</span
+        >
+      </div>
+
+      <div id="WindowContent">
+        <!--Notes Window-->
+        <div id="notes" style="display: none" background-color="#FFFFFF">
+          <div contenteditable="true" class="notes"></div>
+        </div>
+        <!--Welcome Window-->
+        <div id="help" style="display: none">
+          <iframe
+            src="help.html"
+            frameborder="0"
+            style="margin: 0; padding: 0; width: 100%; height: 100%"
+            name="_iframe-googlechrome"
+          ></iframe>
+        </div>
+        <!--About Window-->
+      </div>
+    </div>
+
+    <iframe
+      frameborder="0"
+      id="start"
+      class="start"
+      style="display: none; margin: 0px; z-index: 998"
+      src="start.html"
+    ></iframe>
+    <div class="taskbar" draggable="false">
+      <img
+        src="./assets/img/win_normal.png"
+        draggable="false"
+        class="taskbar_button"
+        onmouseover="this.src='./assets/img/win_active.png';"
+        onmouseout="this.src='./assets/img/win_normal.png';"
+        onclick="togglediv('start');togglediv('desk')"
+      />
+      <div class="time">
+        <script>
+          (function () {
+            document.write(new Date().toString("h:mm tt"));
+          })();
+        </script>
+        <br />
+        <script>
+          (function () {
+            document.write(new Date().toString("d/M/yy"));
+          })();
+        </script>
+      </div>
+    </div>
     <script src="./assets/js/index.js"></script>
   </body>
 </html>

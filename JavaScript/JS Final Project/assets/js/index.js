@@ -1,10 +1,10 @@
 var dhtmlwindow = {
   imagefiles: [
-    "/assets/img/Windows10VmNavButton_Min.png",
-    "/assets/img/Windows10VmNavButton_Close.png",
-    "/assets/img/Windows10VmNavButton_Restore.png",
-    "/assets/img/Windows10VmNavButton_Resize.png",
-    "/assets/img/Windows10VmNavButton_Max.png",
+    "./assets/img/Windows10VmNavButton_Min.png",
+    "./assets/img/Windows10VmNavButton_Close.png",
+    "./assets/img/Windows10VmNavButton_Restore.png",
+    "./assets/img/Windows10VmNavButton_Resize.png",
+    "./assets/img/Windows10VmNavButton_Max.png",
   ], //Path to 4 images used by script, in that order
   ajaxbustcache: true,
   ajaxloadinghtml: "<b>Loading...</b>",

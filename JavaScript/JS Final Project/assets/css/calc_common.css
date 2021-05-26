@@ -19,7 +19,7 @@ img, a {
   height:100%;
   color:#FFFFFF;
   background-color:#2672EC;
-  background-image:url('/assets/img/calc_splashscreen.png');
+  background-image:url('../img/calc_splashscreen.png');
   background-position:center;
   background-repeat:no-repeat;
   animation:splash 4s;

@@ -40,28 +40,28 @@ iframe {
   background-color: transparent !important;
 }
 #back {
-  background-image: url("/assets/img/back.png");
+  background-image: url("../img/back.png");
 }
 #back:active {
-  background-image: url("/assets/img/back-active.png");
+  background-image: url("../img/back-active.png");
 }
 #forward {
-  background-image: url("/assets/img/forward.png");
+  background-image: url("../img/forward.png");
 }
 #forward:active {
-  background-image: url("/assets/img/forward-active.png");
+  background-image: url("../img/forward-active.png");
 }
 #reload {
-  background-image: url("/assets/img/reload.png");
+  background-image: url("../img/reload.png");
 }
 #reload:active {
-  background-image: url("/assets/img/reload-active.png");
+  background-image: url("../img/reload-active.png");
 }
 #link {
-  background-image: url("/assets/img/link.png");
+  background-image: url("../img/link.png");
 }
 #link:active {
-  background-image: url("/assets/img/link-active.png");
+  background-image: url("../img/link-active.png");
 }
 #multisearchForm,
 #multisearchFormIcon {
@@ -117,7 +117,7 @@ ul.ws_drop_down li a {
   padding: 5px 3px 6px 10px;
   margin: 0px;
   color: #666666;
-  background-image: url("/assets/img/dropdown.png");
+  background-image: url("../img/dropdown.png");
   background-repeat: no-repeat;
   background-position: 75px center;
   width: 80px;
@@ -170,7 +170,7 @@ ul.ws_drop_down ul a {
   vertical-align: middle;
   margin-right: 10px;
   background-color: #ffffff;
-  background-image: url("/assets/img/reset.png");
+  background-image: url("../img/reset.png");
   background-repeat: no-repeat;
   background-position: center;
   border: none;
@@ -180,18 +180,18 @@ ul.ws_drop_down ul a {
 }
 #reset:active {
   background-color: #000;
-  background-image: url("/assets/img/reset-white.png");
+  background-image: url("../img/reset-white.png");
 }
 #submit {
   vertical-align: top;
-  background: url("search.png") #111 center no-repeat;
+  background: url("../img/search.png") #111 center no-repeat;
   height: 34px;
   width: 50px;
   border: 1px solid #111;
   outline: 1px solid #111;
 }
 #submit:active {
-  background: url("search-active.png") #111 center no-repeat;
+  background: url("../img/search-active.png") #111 center no-repeat;
 }
 #engines img {
   margin: 7px 10px 0px 10px;

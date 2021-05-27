@@ -579,6 +579,18 @@ div.line {
   width: 15px;
   height: 15px;
 }
+/* Charms bar */
+#charmsbar {
+  z-index: 2;
+  display: none;
+  background-color: #111111;
+  position: fixed;
+  padding: 5% 0;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 86px;
+}
 /* Start button */
 #startbutton {
   display: none;
@@ -671,7 +683,152 @@ div.line {
 .closesettings:active {
   background-image: url(images/charmsbar/settings/close-active.png);
 }
+/* Charms */
+.charms {
+  z-index: 2;
+  background-color: #001e4e;
+  padding: 40px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 354px;
+}
+.charms input[type="text"] {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  border: none;
+  font: normal 11pt Segoe UI;
+  background-color: #fff;
+  transition: all 1s;
+}
+.charms input::selection {
+  background-color: #6666dd;
+}
+.charms input::-moz-selection {
+  background-color: #6666dd;
+}
+/* Settings charms */
+#settingscharms {
+  display: none;
+}
+/* Images on settings charm */
+#settingscharms img {
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+  transform: perspective(800px) rotateY(0deg);
+  box-shadow: 0px 0px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+#settingscharms img:hover {
+  box-shadow: 0px 0px 0px 3px rgba(175, 175, 175, 0.2);
+}
+#settingscharms img:active {
+  box-shadow: 0px 0px;
+}
+#settingscharms span {
+  line-height: 40px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#settingscharms input[type="text"] {
+  margin: 5px;
+  padding: 4px;
+}
+/* Share charms */
+#sharecharms {
+  display: none;
+}
+#sharecharms span {
+  line-height: 40px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
+/* Search charms */
+#searchcharms {
+  display: none;
+}
+#searchcharms span {
+  line-height: 40px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Search charms elements */
+#searchcharms input[type="text"] {
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 250px;
+  padding-left: 10px;
+  font-family: Segoe UI;
+  font-size: 11pt;
+}
+#searchcharms input[type="submit"] {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  text-indent: -999px;
+  line-height: 0;
+  font-size: 0;
+  padding: 0;
+  color: transparent;
+  background: url(images/charmsbar/search/search.png) no-repeat #0069c0 center;
+  border: 2px solid #ffffff;
+  vertical-align: top;
+}
+#searchcharms input[type="submit"]:hover {
+  background: url(images/charmsbar/search/search.png) no-repeat #227dc9 center;
+  border: 2px solid #ffffff;
+}
+#searchcharms input[type="submit"]:active {
+  background: url(images/charmsbar/search/search-black.png) no-repeat #ffffff
+    center;
+  border: 2px solid #ffffff;
+}
+#searchcharms input[type="reset"] {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  text-indent: -999px;
+  line-height: 0;
+  font-size: 0;
+  margin: 0px;
+  color: transparent;
+  background: url(images/charmsbar/search/reset-black.png) no-repeat center;
+  border: 2px solid #ffffff;
+  vertical-align: top;
+}
+#searchcharms input[type="reset"]:hover {
+  background: url(images/charmsbar/search/reset-black.png) no-repeat #dfdfdf
+    center;
+  border: 2px solid #ffffff;
+}
+#searchcharms input[type="reset"]:active {
+  background: url(images/charmsbar/search/reset.png) no-repeat #000000 center;
+  border: 2px solid #ffffff;
+}
+#searchcharms form {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 24px;
+}
 .searchcategory {
   font-size: 11pt;
   height: 40px;

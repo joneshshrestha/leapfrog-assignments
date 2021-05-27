@@ -6,7 +6,7 @@ body {
 }
 body {
   margin: 0;
-  font: 20px "Segoe UI", Arial, sans-serif;
+  font: 20px 'Cantarell', sans-serif; Arial;
   font-weight: 400;
   background: #fff;
   color: #212121;

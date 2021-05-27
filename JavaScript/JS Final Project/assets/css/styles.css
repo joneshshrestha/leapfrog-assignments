@@ -1,5 +1,5 @@
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Cantarell", sans-serif;
 }
 body {
   background: url("../img/Windows10VmBackground.jpg") no-repeat center center
@@ -79,12 +79,12 @@ body {
 #icontext {
   font-size: 11px;
   color: #ffffff;
-  font-family: Segoe UI;
+  font-family: "Cantarell", sans-serif;
   text-shadow: 0px 0px 5px #000000;
 }
 p {
   padding: 5px;
-  font-family: Segoe UI;
+  font-family: "Cantarell", sans-serif;
   font-size: 4pt;
   color: #0078d7;
 }
@@ -95,7 +95,6 @@ p {
 }
 [contenteditable="true"] {
   font: 30px;
-  font-family: Segoe UI;
   padding: 5px;
   background-color: #e4e4e4;
   color: black;
@@ -164,7 +163,7 @@ p {
   user-select: none;
   font-size: 11px;
   color: #ffffff;
-  font-family: Segoe UI;
+  font-family: "Cantarell", sans-serif;
   text-shadow: 0px 0px 5px #000000;
 }
 .icon:hover {
@@ -283,7 +282,7 @@ p {
   height: 30px;
   transition: background-color 0.1s ease;
   color: #fff;
-  font-family: "Segoe UI";
+  font-family: "Cantarell", sans-serif;
   font-size: 12px;
 }
 

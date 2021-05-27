@@ -5,7 +5,7 @@ html {
 }
 body {
   background: rgba(47, 48, 49, 0.68);
-  font-family: Segoe UI;
+  font-family: "Cantarell", sans-serif;
   font-size: 9pt;
   color: #ffffff;
   padding: 0;
@@ -38,7 +38,7 @@ img {
 /* Start text and user tile */
 #starttext {
   position: fixed;
-  font-family: Segoe UI Light;
+  font-family: "Cantarell", sans-serif Light;
   font-size: 48pt;
   color: #ffffff;
   margin-top: 20px;
@@ -89,7 +89,7 @@ img {
   min-height: 69px;
 }
 #user #firstname {
-  font-family: Segoe UI Semilight;
+  font-family: "Cantarell", sans-serif Semilight;
   font-size: 18pt;
   line-height: 17pt;
   margin-bottom: 0;
@@ -143,7 +143,7 @@ img {
   z-index: 0;
 }
 .blocktitle {
-  font-family: Segoe UI Light;
+  font-family: "Cantarell", sans-serif Light;
   font-size: 24pt;
   opacity: 0.7;
   margin-bottom: 7px;
@@ -614,7 +614,7 @@ div.line {
   position: absolute;
   left: 70px;
   bottom: 19px;
-  font-family: Segoe UI Light;
+  font-family: "Cantarell", sans-serif Light;
   font-size: 64pt;
 }
 #date {
@@ -637,7 +637,7 @@ div.line {
 /* Text styling on Settings, share charms */
 
 .ch1 {
-  font-family: Segoe UI Semilight;
+  font-family: "Cantarell", sans-serif Semilight;
   font-size: 28px;
   margin-bottom: 25px;
   -webkit-user-select: none;
@@ -701,7 +701,7 @@ div.line {
   -ms-user-select: text;
   user-select: text;
   border: none;
-  font: normal 11pt Segoe UI;
+  font: normal 11pt "Cantarell", sans-serif;
   background-color: #fff;
   transition: all 1s;
 }
@@ -776,7 +776,7 @@ div.line {
   height: 30px;
   width: 250px;
   padding-left: 10px;
-  font-family: Segoe UI;
+  font-family: "Cantarell", sans-serif;
   font-size: 11pt;
 }
 #searchcharms input[type="submit"] {

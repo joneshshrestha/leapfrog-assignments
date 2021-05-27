@@ -1,6 +1,6 @@
 /* CSS Reset + Font */
 body {
-  font-family: Segoe UI;
+  font-family: "Cantarell", sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -141,7 +141,7 @@ a {
   position: absolute;
   left: 70px;
   bottom: 19px;
-  font-family: Segoe UI Light;
+  font-family: "Cantarell", sans-serif Light;
   font-size: 64pt;
 }
 #date {
@@ -166,7 +166,7 @@ a {
   line-height: 40px;
 }
 .ch1 {
-  font-family: Segoe UI Semilight;
+  font-family: "Cantarell", sans-serif Semilight;
   font-size: 28px;
   margin-bottom: 25px;
 }

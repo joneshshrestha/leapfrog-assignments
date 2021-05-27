@@ -65,7 +65,7 @@ iframe {
 }
 #multisearchForm,
 #multisearchFormIcon {
-  font-family: Open Sans, Open Sans;
+  font-family: "Cantarell", sans-serif;
   padding: 0px;
   border: none;
   display: inline-block;
@@ -80,7 +80,7 @@ iframe {
   border: none;
   height: 24px;
   width: 900px;
-  font: normal 11pt Segoe UI;
+  font: normal 11pt "Cantarell", sans-serif;
   line-height: 32px;
 }
 

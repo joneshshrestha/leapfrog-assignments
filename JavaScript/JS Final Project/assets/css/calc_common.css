@@ -1,5 +1,5 @@
 html, body {
-  font-family:Segoe UI;
+  font-family: 'Cantarell', sans-serif;
   color:#FFFFFF;
   margin:0px;
   padding:0px;
@@ -158,7 +158,7 @@ img, a {
   position:absolute;
   left:70px;
   bottom:19px;
-  font-family: Segoe UI Light;
+  font-family: 'Cantarell', sans-serif Light;
   font-size: 64pt;
 }
 #date {
@@ -166,7 +166,7 @@ img, a {
   margin-right:20px;
   float:right;
   font-size:24pt;
-  font-family: Segoe UI;
+  font-family: 'Cantarell', sans-serif;
   color:#FFFFFF;
 }
 iframe {

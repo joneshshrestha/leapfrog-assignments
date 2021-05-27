@@ -1,14 +1,14 @@
 body {
   background-color: #262626;
   color: #ffffff;
-  font-family: Segoe UI;
+  font-family: "Cantarell", sans-serif;
   margin: 0;
   padding: 0;
   width: 3000px;
 }
 
 pre {
-  font-family: Segoe UI;
+  font-family: "Cantarell", sans-serif;
 }
 #firstblock {
   position: absolute;
@@ -19,7 +19,7 @@ pre {
   text-align: center;
 }
 .blocktitle {
-  font-family: Segoe UI Light;
+  font-family: "Cantarell", sans-serif Light;
   font-size: 24pt;
   margin: 25px;
   padding-left: 520px;
@@ -28,11 +28,11 @@ iframe {
   position: absolute !important;
 }
 h2 {
-  font-family: Segoe UI Light;
+  font-family: "Cantarell", sans-serif Light;
   font-weight: normal;
 }
 h3 {
-  font-family: Segoe UI Light;
+  font-family: "Cantarell", sans-serif Light;
   font-weight: normal;
   margin: 0px;
 }
@@ -56,7 +56,7 @@ tr {
   border: none;
 }
 input {
-  font-family: Segoe UI;
+  font-family: "Cantarell", sans-serif;
   font-size: 14pt;
   background-color: rgba(255, 255, 255, 0.6);
   border: none;

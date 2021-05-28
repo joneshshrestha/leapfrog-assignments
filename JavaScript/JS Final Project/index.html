@@ -94,17 +94,34 @@
       <div class="time">
         <script>
           (function () {
-            document.write(new Date().toString("h:mm tt"));
-            console.log(new Date().toString("h:mm tt"));
+            let dateObj = new Date();
+            document.write(
+              dateObj.getHours() +
+                ":" +
+                (dateObj.getMinutes() < 10 ? "0" : "") +
+                dateObj.getMinutes()
+            );
           })();
         </script>
         <br />
-        <!-- <script>
+        <script>
           (function () {
-            document.write(new Date().toString("d/M/yy"));
-            console.log(new Date().toString("d/M/yy"));
+            let dateObj = new Date();
+            document.write(
+              dateObj.getDate() +
+                "-" +
+                (dateObj.getMonth() + 1) +
+                "-" +
+                dateObj.getFullYear()
+            );
+            console.log(
+              dateObj.getHours() +
+                ":" +
+                (dateObj.getMinutes() < 10 ? "0" : "") +
+                dateObj.getMinutes()
+            );
           })();
-        </script> -->
+        </script>
       </div>
     </div>
     <script src="./assets/js/index.js"></script>

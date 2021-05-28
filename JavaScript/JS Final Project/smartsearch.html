@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html xmlns="https://www.w3.org/1999/xhtml">
+<hesad>
+    <meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta https-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>SmartSearch</title>
     <link rel="shortcut icon" href="./assets/img/favicon.ico" size="32x32" />
     <!-- Stylesheet (file used to style the search box) -->
@@ -13,7 +13,7 @@
       function forIconSearch(action,naction,img){
         document.getElementById('multisearchFormIcon').action = action;
         document.getElementById('Iconselectedsearch').src=img;
-        document.getElementById('input').name = naction;
+        document.getElementById('input').name = action;
       }
       function forWebSearch(action,text){
         document.getElementById('multisearchForm').action = action;
@@ -65,7 +65,7 @@
         <div class="appbaricon" onclick="window.history.back()" id="back" title="Previous search"></div>
         <div class="appbaricon" onclick="window.history.forward()" id="forward" title="Next search"></div>
         <!-- Default search engine -->
-        <form name="multisearch" action="http://www.bing.com/search?q=" id="multisearchFormIcon" method="get" target="results">
+        <form name="multisearch" action="https://www.bing.com/search?q=" id="multisearchFormIcon" method="get" target="results">
             <ul class="ws_drop_down" id="dropdown" onclick="show()">
               <li><a style="width:40px;" title="Search"><img src="./assets/img/bing.png" width="16px" height="16px" id="Iconselectedsearch"></span>
                 <![if gt IE 6]>
@@ -78,11 +78,11 @@
             <!-- The form (where you type text) -->
             </ul><input class="multisearchInput" id="input" list="autocomplete" name="q" type="text" placeholder="Search"/>
             <div id="engines" style="visibility:hidden;display:none;">
-                   <a href="javascript:void(0);" onclick="forIconSearch('http://www.bing.com/search?q=','q','./assets/img/bing.png');hide();" title="Search Bing"><img src="./assets/img/bing.png"/></a>
-                   <a href="javascript:void(0);" onclick="forIconSearch('http://en.wikipedia.org/w/index.php?','search','./assets/img/wikipedia.png');hide();" title="Search Wikipedia"><img src="./assets/img/wikipedia.png"/></a>
-                   <a href="javascript:void(0);" onclick="forIconSearch('http://www.bing.com/images/search?q=','q','./assets/img/bimages.png');hide();" title="Search Bing Images"><img src="./assets/img/bimages.png"/></a>
-                   <a href="javascript:void(0);" onclick="forIconSearch('http://www.bing.com/videos/search?q=','q','./assets/img/bvideos.png');hide();" title="Search Bing Videos"><img src="./assets/img/bvideos.png"/></a>
-                   <a href="javascript:void(0);" onclick="forIconSearch('http://www.livejournal.com/search/?q=','q','./assets/img/livejournal.png');hide();" title="Search LiveJournal"><img src="./assets/img/livejournal.png"/></a>
+                   <a href="javascript:void(0);" onclick="forIconSearch('https://www.bing.com/search?q=','q','./assets/img/bing.png');hide();" title="Search Bing"><img src="./assets/img/bing.png"/></a>
+                   <a href="javascript:void(0);" onclick="forIconSearch('https://en.wikipedia.org/w/index.php?','search','./assets/img/wikipedia.png');hide();" title="Search Wikipedia"><img src="./assets/img/wikipedia.png"/></a>
+                   <a href="javascript:void(0);" onclick="forIconSearch('https://www.bing.com/images/search?q=','q','./assets/img/bimages.png');hide();" title="Search Bing Images"><img src="./assets/img/bimages.png"/></a>
+                   <a href="javascript:void(0);" onclick="forIconSearch('https://www.bing.com/videos/search?q=','q','./assets/img/bvideos.png');hide();" title="Search Bing Videos"><img src="./assets/img/bvideos.png"/></a>
+                   <a href="javascript:void(0);" onclick="forIconSearch('httpss://www.livejournal.com/search/?q=','q','./assets/img/livejournal.png');hide();" title="Search LiveJournal"><img src="./assets/img/livejournal.png"/></a>
             </div>
             <!-- Autocomplete -->
             <!-- Add unlimited suggestions using <option value=""/> -->

@@ -325,7 +325,7 @@ p {
   background-image: url(../img/Windows10VmNavControls.png);
   background-repeat: no-repeat;
 }
-::-webkit-scrollbar-button:vertical {
+/* ::-webkit-scrollbar-button:vertical {
   height: 20px;
 }
 ::-webkit-scrollbar-button:horizontal {
@@ -372,4 +372,4 @@ p {
 }
 ::-webkit-scrollbar-button:vertical:decrement:active {
   background-position: -1px -579px;
-}
+} */

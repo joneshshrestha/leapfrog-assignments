@@ -7,7 +7,7 @@ const finalMessage = document.getElementById("final-message");
 
 const figureParts = document.querySelectorAll(".figure-part");
 
-const words = ["application", "programming", "interface", "wizard"];
+const words = ["apple", "code", "coffee", "leapfrog"];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
@@ -32,7 +32,7 @@ function displayWord() {
   const innerWord = wordEl.innerText.replace(/\n/g, "");
 
   if (innerWord === selectedWord) {
-    finalMessage.innerText = "Congratulations! You won! ð";
+    finalMessage.innerText = "Congratulations! You won!";
     popup.style.display = "flex";
   }
 }
@@ -58,7 +58,7 @@ function updateWrongLettersEl() {
 
   // Check if lost
   if (wrongLetters.length === figureParts.length) {
-    finalMessage.innerText = "Unfortunately you lost. ð";
+    finalMessage.innerText = "Unfortunately you lost.";
     popup.style.display = "flex";
   }
 }

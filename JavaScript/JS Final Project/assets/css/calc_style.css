@@ -132,3 +132,32 @@ input[type="text"]:focus {
   bottom: 20px;
   margin-left: 30px;
 }
+
+#appbar {
+  background: #111;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+}
+.appbaricon {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  display: inline-block;
+  border-radius: 10000px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.appbaricon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.appbaricon:hover:active {
+  background-color: transparent !important;
+}
+#back {
+  background-image: url("../img/back.png");
+}
+#back:active {
+  background-image: url("../img/back-active.png");
+}

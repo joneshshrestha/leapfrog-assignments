@@ -18,7 +18,6 @@ body {
 }
 .dhtmlwindow {
   /*Parent Window Frame*/
-
   position: absolute;
   border: 1px solid #0078d7;
   border-bottom: 0px;
@@ -30,7 +29,6 @@ body {
 }
 .drag-handle {
   /*Title Bar Frame*/
-
   height: 30px;
   padding-top: 7px;
   text-indent: 10px;
@@ -58,7 +56,6 @@ body {
   overflow: auto;
 }
 .drag-statusarea {
-  /*CSS for Status Bar div (includes resizearea)*/
 
   background-color: #cd543c;
   height: 1px;
@@ -174,13 +171,11 @@ p {
 }
 .icon img {
   /*Image Style For Desktop Icons*/
-
   width: 49px;
   height: 49px;
 }
 .Desktop a {
   /*Link Style For Desktop Icons*/
-
   text-decoration: none;
 }
 .Desktop {
@@ -243,8 +238,7 @@ p {
   -khtml-user-select: none; /* Konqueror */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-                                not supported by any browser */
+  user-select: none; /* Non-prefixed version, currently not supported by any browser */
 }
 
 .taskbar_button {
@@ -286,14 +280,6 @@ p {
   font-size: 12px;
 }
 
-/* .time:hover {
-  background-color: rgba(105, 105, 105, 0.43);
-} */
-
-/* .time:active {
-  background-color: rgba(160, 160, 160, 0.14);
-} */
-
 .start {
   position: absolute;
   left: 0;
@@ -304,7 +290,6 @@ p {
 }
 
 /*Scrollbar CSS*/
-
 ::-webkit-scrollbar {
   width: 17px;
   height: 17px;
@@ -325,51 +310,3 @@ p {
   background-image: url(../img/Windows10VmNavControls.png);
   background-repeat: no-repeat;
 }
-/* ::-webkit-scrollbar-button:vertical {
-  height: 20px;
-}
-::-webkit-scrollbar-button:horizontal {
-  width: 33px;
-}
-::-webkit-scrollbar-button:horizontal:increment {
-  background-position: 0 -444px;
-}
-::-webkit-scrollbar-button:horizontal:decrement {
-  background-position: 12px -425px;
-}
-::-webkit-scrollbar-button:vertical:increment {
-  background-position: -1px -391px;
-}
-::-webkit-scrollbar-button:vertical:decrement {
-  background-position: -1px -371px;
-}
-::-webkit-scrollbar-button:hover {
-  background-color: #e7e7e7;
-}
-::-webkit-scrollbar-button:horizontal:increment:hover {
-  background-position: 0 -548px;
-}
-::-webkit-scrollbar-button:horizontal:decrement:hover {
-  background-position: 12px -529px;
-}
-::-webkit-scrollbar-button:vertical:increment:hover {
-  background-position: -1px -495px;
-}
-::-webkit-scrollbar-button:vertical:decrement:hover {
-  background-position: -1px -475px;
-}
-::-webkit-scrollbar-button:active {
-  background-color: #e3e3e3;
-}
-::-webkit-scrollbar-button:horizontal:increment:active {
-  background-position: 0 -652px;
-}
-::-webkit-scrollbar-button:horizontal:decrement:active {
-  background-position: 12px -633px;
-}
-::-webkit-scrollbar-button:vertical:increment:active {
-  background-position: -1px -599px;
-}
-::-webkit-scrollbar-button:vertical:decrement:active {
-  background-position: -1px -579px;
-} */

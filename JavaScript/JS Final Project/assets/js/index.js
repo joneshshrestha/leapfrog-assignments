@@ -6,8 +6,6 @@ var dhtmlwindow = {
     "./assets/img/Windows10VmNavButton_Resize.png",
     "./assets/img/Windows10VmNavButton_Max.png",
   ], //Path to 4 images used by script, in that order
-  ajaxbustcache: true,
-  ajaxloadinghtml: "<b>Loading...</b>",
 
   minimizeorder: 0,
   zIndexvalue: 100,
@@ -438,45 +436,6 @@ var dhtmlwindow = {
     t.style.display = "none";
   },
 
-  ajax_connect: function (url, t) {
-    var page_request = false;
-    var bustcacheparameter = "";
-    if (window.XMLHttpRequest)
-      // if Mozilla, IE7, Safari etc
-      page_request = new XMLHttpRequest();
-    else if (window.ActiveXObject) {
-      // if IE6 or below
-      try {
-        page_request = new ActiveXObject("Msxml2.XMLHTTP");
-      } catch (e) {
-        try {
-          page_request = new ActiveXObject("Microsoft.XMLHTTP");
-        } catch (e) {}
-      }
-    } else return false;
-    t.contentarea.innerHTML = this.ajaxloadinghtml;
-    page_request.onreadystatechange = function () {
-      dhtmlwindow.ajax_loadpage(page_request, t);
-    };
-    if (this.ajaxbustcache)
-      //if bust caching of external page
-      bustcacheparameter =
-        url.indexOf("?") != -1
-          ? "&" + new Date().getTime()
-          : "?" + new Date().getTime();
-    page_request.open("GET", url + bustcacheparameter, true);
-    page_request.send(null);
-  },
-
-  ajax_loadpage: function (page_request, t) {
-    if (
-      page_request.readyState == 4 &&
-      (page_request.status == 200 || window.location.href.indexOf("http") == -1)
-    ) {
-      t.contentarea.innerHTML = page_request.responseText;
-    }
-  },
-
   stop: function () {
     dhtmlwindow.etarget = null; //clean up
     document.onmousemove = null;
@@ -523,4 +482,3 @@ function togglediv(id) {
   var div = document.getElementById(id);
   div.style.display = div.style.display == "none" ? "block" : "none";
 }
-

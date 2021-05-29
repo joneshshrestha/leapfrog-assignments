@@ -6,7 +6,7 @@ body {
 }
 body {
   margin: 0;
-  font: 20px 'Cantarell', sans-serif; Arial;
+  font: 20px "Cantarell", sans-serif;
   font-weight: 400;
   background: #fff;
   color: #212121;
@@ -74,7 +74,7 @@ h3 {
   -moz-animation-duration: 0.3s;
   -moz-animation-timing-function: ease-in-out;
 }
-@-webkit-keyframes fadeout {
+@keyframes fadeout {
   0% {
     opacity: 1;
     visibility: visible;
@@ -107,7 +107,7 @@ h3 {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
 }
-@-webkit-keyframes fadein {
+@keyframes fadein {
   0% {
     opacity: 0;
   }
@@ -196,7 +196,7 @@ header span {
   -moz-animation-timing-function: ease-in-out;
   -moz-animation-iteration-count: infinite;
 }
-@-webkit-keyframes pulsate {
+@keyframes pulsate {
   0% {
     opacity: 1;
   }

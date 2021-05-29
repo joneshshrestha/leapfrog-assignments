@@ -193,9 +193,7 @@ a {
   box-shadow: none !important;
   background-image: url(../img/charmsbar/close.png);
 }
-/*.closecharms:hover {
-  background-image: url(../img/charmsbar/close-hover.png);
-}*/
+
 .closecharms:active {
   background-image: url(../img/charmsbar/close-active.png);
 }

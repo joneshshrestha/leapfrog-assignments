@@ -96,6 +96,7 @@ ul.ws_drop_down li img {
   border: 0px;
   vertical-align: middle;
   padding: 1px;
+  padding-bottom: 9px;
 }
 ul.ws_drop_down li {
   display: block;

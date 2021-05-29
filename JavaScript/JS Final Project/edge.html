@@ -16,7 +16,6 @@ function convertURL(form) {
   document.getElementById('chromecontent').src = url;}
 return false;}
 </script>
-<center>
 <form class="browserMain" name="SearchForm" onsubmit="return convertURL(this);">
 <img class="back" src="./assets/img/back.png" onclick="window.history.back()"><input autocomplete="off" placeholder="Address bar" name="url" id="url" value="http://" type="text" required>
 </form>

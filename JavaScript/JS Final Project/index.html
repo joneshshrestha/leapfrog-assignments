@@ -20,21 +20,15 @@
 
     <div id="desk">
       <div class="Desktop" draggable="false">
-        <script>
-          var EdgeNumber = parseInt("0");
-          var NotesNumber = parseInt("8000");
-        </script>
-        <!--Start of Edge Button-->
-
         <span
           class="icon"
-          ondblclick="EdgeNumber += 1;edge=dhtmlwindow.open(EdgeNumber, 'iframe', 'edge.html', 'Edge', 'width=550px,height=350px,center=1,scrolling=0,resize=1')"
+          ondblclick="dhtmlwindow.open('edge', 'iframe', 'edge.html', 'Edge', 'width=550px,height=350px,center=1,scrolling=0,resize=1')"
           ><img src="./assets/img/Edge.png" draggable="false" /><br />Edge</span
         >
 
         <span
           class="icon"
-          ondblclick="NotesNumber += 1;divwin=dhtmlwindow.open(NotesNumber, 'div', 'notes', 'Notes', 'width=300px,height=300px,center=1,resize=1,scrolling=1')"
+          ondblclick="dhtmlwindow.open('note', 'div', 'notes', 'Notes', 'width=300px,height=300px,center=1,resize=1,scrolling=1')"
           ><img
             src="./assets/img/Notes.png"
             draggable="false"
@@ -43,13 +37,13 @@
 
         <span
           class="icon"
-          ondblclick="helpmewin=dhtmlwindow.open('helpme', 'iframe', 'help.html', 'OS Desktop help', 'width=800px,height=400px,left=300px,top=50px,resize=1,scrolling=1')"
+          ondblclick="dhtmlwindow.open('helpme', 'iframe', 'help.html', 'OS Desktop help', 'width=800px,height=400px,left=300px,top=50px,resize=1,scrolling=1')"
           ><img src="./assets/img/Help.png" draggable="false" /><br />Help</span
         >
 
         <span
           class="icon"
-          ondblclick="About=dhtmlwindow.open('aboutme', 'iframe', 'about.html', 'About', 'width=1070px,height=540px,center=1,scrolling=0,resize=1')"
+          ondblclick="dhtmlwindow.open('about', 'iframe', 'about.html', 'About', 'width=1070px,height=540px,center=1,scrolling=0,resize=1')"
           ><img
             src="./assets/img/About.png"
             draggable="false"
@@ -133,6 +127,5 @@
         </script>
       </div>
     </div>
-    <script src="./assets/js/index.js"></script>
   </body>
 </html>

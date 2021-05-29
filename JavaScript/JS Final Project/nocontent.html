@@ -1,69 +1,94 @@
 <body>
-<style>
-body {
-background-color: #FFFFFF;
-color:#888;
--webkit-animation: anim 1s 1;
--moz-animation: anim 1s 1;
--o-animation: anim 1s 1;
-animation: anim 1s 1;
-cursor:default !important;
-}
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #888;
+      -webkit-animation: anim 1s 1;
+      -moz-animation: anim 1s 1;
+      -o-animation: anim 1s 1;
+      animation: anim 1s 1;
+      cursor: default !important;
+    }
 
+    a {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+      color: #0d8799;
+    }
 
-a {
-  text-decoration: none;
-  color: rgba(0,0,0,.4);
-  z-index: 1;
-  color: #0D8799;
-}
+    a:before {
+      content: "";
+      position: absolute;
+      width: 210px;
+      height: 4px;
+      top: 110px;
+      background: #0d8799;
+      visibility: hidden;
+      border-radius: 5px;
+      transform: scaleX(0);
+      transition: 0.25s linear;
+    }
+    a:hover:before,
+    a:focus:before {
+      visibility: visible;
+      transform: scaleX(1);
+    }
 
-a:before {
-content: "";
-position: absolute;
-width: 210px;
-height: 4px;
-top:110px;
-background: #0D8799;
-visibility: hidden;
-border-radius: 5px;
-transform: scaleX(0);
-transition: .25s linear;
-}
-a:hover:before,
-a:focus:before {
-  visibility: visible;
-  transform: scaleX(1);
-}
+    body:hover {
+      -webkit-animation: anim2 1s 1;
+      -moz-animation: anim2 1s 1;
+      -o-animation: anim2 1s 1;
+      animation: anim2 1s 1;
+      background-color: #f7f7f7;
+      color: #888;
+    }
 
+    @keyframes anim {
+      from {
+        background-color: #f7f7f7;
+      }
+      to {
+        background-color: #ffffff;
+      }
+    }
 
+    @keyframes anim {
+      from {
+        background-color: #f7f7f7;
+      }
+      to {
+        background-color: #ffffff;
+      }
+    }
 
-body:hover {
--webkit-animation: anim2 1s 1;
--moz-animation: anim2 1s 1;
--o-animation: anim2 1s 1;
-animation: anim2 1s 1;
-background-color:#F7F7F7;
-color:#888;
-}
+    @keyframes anim2 {
+      from {
+        background-color: #ffffff;
+      }
+      to {
+        background-color: #f7f7f7;
+      }
+    }
 
-@-moz-keyframes anim {
-from {background-color:#F7F7F7;}
-to {background-color: #FFFFFF;}}
-
-@-webkit-keyframes anim {
-from {background-color:#F7F7F7;}
-to {background-color: #FFFFFF;}}
-
-@-webkit-keyframes anim2 {
-from {background-color: #FFFFFF;}
-to {background-color:#F7F7F7;}}
-
-@-moz-keyframes anim {
-from {background-color: #FFFFFF;}
-to {background-color:#F7F7F7;}}
-</style><center>
-<br><br>
-<font style="font-size:23px !important;" face='Cantarell' >Nothing to show here, enter an address above eg.<br> <a href="https://bing.com">https://www.bing.com</a></font>
-
+    @keyframes anim {
+      from {
+        background-color: #ffffff;
+      }
+      to {
+        background-color: #f7f7f7;
+      }
+    }
+  </style>
+  <br /><br />
+  <div
+    style="
+      font-size: 23px !important;
+      text-align: center;
+      font-family: 'Cantarell';
+    "
+  >
+    Nothing to show here, enter an address above eg.<br />
+    <a href="https://bing.com">https://www.bing.com</a>
+  </div>
 </body>

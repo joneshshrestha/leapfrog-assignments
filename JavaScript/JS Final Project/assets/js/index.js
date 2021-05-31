@@ -81,6 +81,7 @@ var dhtmlwindow = {
       dhtmlwindow.load(this, contenttype, contentsource, title);
     }; //public function for loading content into window
     this.tobjects[this.tobjects.length] = t;
+    console.log(t);
     return t; //return reference to dhtml window div
   },
 
@@ -97,8 +98,8 @@ var dhtmlwindow = {
     else t = document.getElementById(t);
     this.setfocus(t);
     t.setSize(getValue("width"), getValue("height")); //Set dimensions of window
-    var xpos = getValue("center") ? "middle" : getValue("left"); //Get x coord of window
-    var ypos = getValue("center") ? "middle" : getValue("top"); //Get y coord of window
+    var xpos = getValue("center") ? "middle" : getValue("left"); //Get x coordinate of window
+    var ypos = getValue("center") ? "middle" : getValue("top"); //Get y coordinate of window
     //t.moveTo(xpos, ypos) //Position window
     if (
       typeof recalonload != "undefined" &&

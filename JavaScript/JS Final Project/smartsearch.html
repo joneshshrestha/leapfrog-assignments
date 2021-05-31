@@ -3,6 +3,7 @@
 <head>
     <meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta https-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OSSearch</title>
     <!-- Stylesheet (file used to style the search box) -->
     <link rel="stylesheet" href="./assets/css/smartsearch_style.css" type="text/css" media="screen" />
@@ -59,7 +60,7 @@
     </script>
 </head>
 <body>
-    <div id="splashscreen"></div>
+    <div id="splashscreen">
     <div id="appbar">
         <div class="appbaricon" onclick="window.history.back()" id="back" title="Previous search"></div>
         <div class="appbaricon" onclick="window.history.forward()" id="forward" title="Next search"></div>
@@ -103,9 +104,10 @@
         <div class="appbaricon" onclick="window.location.reload()" id="reload" title="Reload"></div>
     </div>
     <iframe width="100%" height="81.5%" id="results" name="results" frameborder="0"></iframe>
-<div id="startbutton" onmouseout="visibility('none','startbutton')">
+    <div id="startbutton" onmouseout="visibility('none','startbutton')">
     <a href="start.html"><img src="./assets/img/start.png"/></a>
     </div>
     <div id="starthoverarea" onmouseover="visibility('inline','startbutton')" class="hotcorner"></div>
+  </div>
 </body>
 </html>

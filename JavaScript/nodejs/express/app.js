@@ -19,6 +19,6 @@ app.use((req, res) => {
   res.status(404).send("<h1> 404 ERROR </h1>");
 });
 
-app.listen(8000, () => {
+app.listen(process.env.PORT || 8000, () => {
   console.log("Listening at port 8000");
 });

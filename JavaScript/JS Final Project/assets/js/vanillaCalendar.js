@@ -101,7 +101,7 @@ var vanillaCalendar = {
   monthsAsString: function (monthIndex) {
     return [
       'January',
-      'Febuary',
+      'February',
       'March',
       'April',
       'May',

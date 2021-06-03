@@ -367,55 +367,6 @@ div.line {
   transform: perspective(800px) rotateY(0deg);
 }
 
-/* Shortcut tiles */
-.shortcuttile {
-  position: relative;
-  display: inline-block;
-  margin-right: 5px;
-  padding: 5px;
-  width: 113px;
-  height: 113px;
-  margin-bottom: 4px;
-  border: 1px solid #3366cc;
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#3366CC', endColorstr='#3A75EA');
-  background-image: linear-gradient(45deg, #3366cc, #3a75ea); /* Firefox 16+ */
-  background-image: -moz-linear-gradient(45deg, #3366cc, #3a75ea); /* Firefox */
-  background-image: -webkit-linear-gradient(
-    45deg,
-    #3366cc,
-    #3a75ea
-  ); /* Chrome */
-  background-image: -o-linear-gradient(45deg, #3366cc, #3a75ea); /* Opera */
-  background-image: -ms-linear-gradient(45deg, #3366cc, #3a75ea); /* IE 10 */
-  transition: all 0.3s ease;
-  transform: perspective(800px) rotateY(0deg);
-  -webkit-transition: all 0.3s ease;
-  -webkit-transform: perspective(800px) rotateY(0deg);
-  -o-transition: all 0.3s ease;
-  -o-transform: perspective(800px) rotateY(0deg);
-  -ms-transition: all 0.3s ease;
-  -ms-transform: perspective(800px) rotateY(0deg);
-}
-.shortcuttile:hover {
-  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.15);
-}
-.shortcuttile:active {
-  box-shadow: none;
-}
-
-.shortcuticon {
-  margin-top: 13px;
-  margin-left: 23px;
-  margin-right: 23px;
-  margin-bottom: 20px;
-  height: 64px;
-  width: 64px;
-  box-shadow: 0px 0px transparent;
-}
-.shortcutlabel {
-  font-size: 9pt;
-  position: relative;
-}
 /* Tilt Top */
 .shortcuttile:nth-of-type(4n - 1):active {
   transform: perspective(1000px) rotateX(20deg);

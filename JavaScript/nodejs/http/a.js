@@ -41,16 +41,3 @@ const server = http.createServer((req, res) => {
 server.listen(8000, "127.0.0.1", () => {
   console.log("listening on port 8000");
 });
-
-// const server = http.createServer((req, res) => {
-//   // if (req.url === "/") {
-//   //   res.write("Hello World!");
-//   //   res.end();
-//   // } else if (req.url === "/test") {
-//   //   res.write(JSON.stringify([1, 2, 3]));
-//   //   res.end();
-//   // } else {
-//   //   res.write("404 error!");
-//   //   res.end();
-//   // }
-// });

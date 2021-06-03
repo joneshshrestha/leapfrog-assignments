@@ -8,3 +8,5 @@
 - [x] [JS Assignment 4: Car Lane Game](https://joneshshrestha.github.io/leapfrog-assignments/JavaScript/Car%20Lane%20Game/index.html)
 - [x] [JS Assignment 4: Flappy Bird](https://joneshshrestha.github.io/leapfrog-assignments/JavaScript/Flappy%20Bird/index.html)
 - [x] [JS Final Project](https://joneshshrestha.github.io/leapfrog-assignments/JavaScript/JS%20Final%20Project/index.html)
+- [x] [NodeJS fs](https://github.com/joneshshrestha/leapfrog-assignments/tree/main/JavaScript/nodejs/fs)
+- [x] [NodeJS HTTP & ExpressJS](https://github.com/joneshshrestha/leapfrog-assignments/tree/main/JavaScript/nodejs)
